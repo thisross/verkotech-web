@@ -1,5 +1,5 @@
 import Hero from '@/components/hero'
-import { useTranslations } from 'next-intl'
+import WhatWeDo from '@/components/whatWeDo'
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <title>Verkotech - Home</title>
       <main className="min-h-screen w-screen bg-white">
         <Hero />
+        <WhatWeDo />
       </main>
     </>
   )

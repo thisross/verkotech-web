@@ -1,7 +1,6 @@
+import { Activity, Forward } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { Button } from '../ui/button'
-import { Activity, Forward, Pencil } from 'lucide-react'
-import { cn } from '@/lib/utils'
 
 export default function Hero() {
   const t = useTranslations('Index')
@@ -10,10 +9,10 @@ export default function Hero() {
     <>
       <section className="w-full px-4">
         <div className="mx-auto w-full max-w-[1200px] pt-36">
-          <ol className="border-verkotech-lightBlue relative border-l  ">
-            <li className="mb-10 ml-6">
+          <ol className="border-verkotech-lightBlue relative border-l-2  ">
+            <li className="mb-0 ml-6">
               {/* Step */}
-              <span className="border-verkotech-lightBlue absolute -left-3 flex h-6 w-6 items-center justify-center rounded-[4px] border bg-gray-50 text-slate-500 ring-inset">
+              <span className="border-verkotech-lightBlue absolute -left-3 flex h-6 w-6 items-center justify-center rounded-[4px] border-2 bg-gray-50 text-slate-500 ring-inset">
                 <Activity size={16} className="text-verkotech-lightBlue" />
               </span>
               <div className="flex flex-col">
@@ -41,7 +40,7 @@ export default function Hero() {
                 </Button>
               </div>
             </li>
-            <li className="mb-10 ml-6 h-[32px]"></li>
+            <li className="ml-6 h-[24px]"></li>
           </ol>
         </div>
       </section>

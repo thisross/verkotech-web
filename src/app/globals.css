@@ -16,6 +16,19 @@
   }
 }
 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  h1,h2,h3,h4,p,span {
+    @apply tracking-tighter
+  }
+}
+
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
