@@ -1,12 +1,13 @@
+import Hero from '@/components/hero'
 import { useTranslations } from 'next-intl'
 
 export default function Home() {
-  const t = useTranslations('Index')
   return (
-    <main className="min-h-screen w-screen bg-white">
-      <div>
-        <h1>{t('title')}</h1>
-      </div>
-    </main>
+    <>
+      <title>Verkotech - Home</title>
+      <main className="min-h-screen w-screen bg-white">
+        <Hero />
+      </main>
+    </>
   )
 }
