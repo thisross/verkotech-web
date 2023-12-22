@@ -1,5 +1,6 @@
 import AboutUsHome from '@/components/aboutUsHome'
 import Hero from '@/components/hero'
+import InnovateTogether from '@/components/innovateTogether'
 import WhatWeDo from '@/components/whatWeDo'
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
         <WhatWeDo />
         <AboutUsHome />
+        <InnovateTogether />
       </main>
     </>
   )

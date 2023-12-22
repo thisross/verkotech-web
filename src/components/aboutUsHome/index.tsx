@@ -8,12 +8,12 @@ export default function AboutUsHome() {
   return (
     <>
       <section className="w-full px-4">
-        <div className="mx-auto mt-[-76px] w-full max-w-[1200px] lg:pt-0">
-          <ol className="border-verkotech-lightBlue relative border-l-2  ">
+        <div className="mx-auto mt-[72px] w-full max-w-[1200px] lg:mt-[-76px] lg:pt-0">
+          <ol className="border-verkotech-lightBlue relative xl:border-l-2">
             <li className="ml-6 hidden h-[132px] lg:block"></li>
             <li className="mb-0 ml-6">
               {/* Step */}
-              <span className="border-verkotech-lightBlue absolute -left-3 flex h-6 w-6 items-center justify-center rounded-[4px] border-2 bg-gray-50 text-slate-500 ring-inset">
+              <span className="border-verkotech-lightBlue absolute -left-3 hidden h-6 w-6 items-center justify-center rounded-[4px] border-2 bg-gray-50 text-slate-500 ring-inset xl:flex">
                 <Boxes size={16} className="text-verkotech-lightBlue" />
               </span>
               <div className="flex flex-col items-start">

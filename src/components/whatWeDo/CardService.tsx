@@ -7,7 +7,7 @@ export default function CardServices() {
             SAP Consultants
           </span>
 
-          <p className="mt-4 font-medium text-slate-400">
+          <p className="mt-4 text-sm font-medium text-slate-400 md:text-base">
             {
               "Your SAP Consultants of choice. Unlock business potential with our expert solutions. Streamline operations, maximize efficiency. Let's elevate your business together!"
             }

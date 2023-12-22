@@ -15,7 +15,7 @@ export default function WhatWeDo() {
           </p>
         </div>
       </section>
-      <div className="mx-auto mt-[-224px] w-full px-6 md:mt-[-200px]">
+      <div className="mx-auto mt-[-156px] w-full px-6 sm:mt-[-232px] md:mt-[-200px]">
         <div className="mx-auto grid max-w-[1280px] grid-cols-1 justify-items-center gap-4 lg:grid-cols-3">
           <CardServices />
           <CardServices />

@@ -18,7 +18,7 @@ export default function Hero() {
               <div className="flex flex-col">
                 {/* Start Step Header */}
                 <div className="border-verkotech-lightBlue mb-6 mt-[-64px] flex w-auto border p-4">
-                  <h2 className="text- text-verkotech-primary max-w-4xl text-4xl  font-semibold leading-tight tracking-tighter md:max-w-5xl md:text-6xl">
+                  <h2 className="text- text-verkotech-primary max-w-4xl text-3xl  font-semibold leading-tight tracking-tighter md:max-w-5xl md:text-6xl">
                     Integrating{' '}
                     <span className="text-verkotech-pink">
                       {' '}
