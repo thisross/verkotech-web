@@ -5,9 +5,7 @@ export default function Services() {
   return (
     <>
       <title>Verkotech - Services</title>
-      <main className="min-h-screen w-screen bg-white">
-        <div>{t('title')}</div>
-      </main>
+      <main className="min-h-screen w-screen bg-white"></main>
     </>
   )
 }
