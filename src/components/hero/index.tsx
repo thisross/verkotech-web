@@ -17,7 +17,7 @@ export default function Hero() {
               </span>
               <div className="flex flex-col">
                 {/* Start Step Header */}
-                <div className="border-verkotech-lightBlue mb-6 mt-[-72px] flex w-auto border p-4">
+                <div className="border-verkotech-lightBlue mb-6 mt-[-64px] flex w-auto border p-4">
                   <h2 className="text- text-verkotech-primary max-w-4xl text-4xl  font-semibold leading-tight tracking-tighter md:max-w-5xl md:text-6xl">
                     Integrating{' '}
                     <span className="text-verkotech-pink">
@@ -35,12 +35,12 @@ export default function Hero() {
                   requirements and legal regulations
                 </p>
 
-                <Button className="bg-verkotech-primary flex h-[44px] max-w-[142px] gap-2 rounded-[4px]">
+                <Button className="bg-verkotech-primary flex h-[44px] max-w-[142px] gap-2 rounded-[4px] font-semibold">
                   Get In Touch <Forward size={20} />{' '}
                 </Button>
               </div>
             </li>
-            <li className="ml-6 h-[24px]"></li>
+            <li className="ml-6 h-[48px]"></li>
           </ol>
         </div>
       </section>

@@ -1,3 +1,4 @@
+import AboutUsHome from '@/components/aboutUsHome'
 import Hero from '@/components/hero'
 import WhatWeDo from '@/components/whatWeDo'
 
@@ -8,6 +9,7 @@ export default function Home() {
       <main className="min-h-screen w-screen bg-white">
         <Hero />
         <WhatWeDo />
+        <AboutUsHome />
       </main>
     </>
   )
