@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl'
 export default function Home() {
   const t = useTranslations('Index')
   return (
-    <main className="min-h-screen w-screen bg-red-50">
+    <main className="min-h-screen w-screen bg-white">
       <div>
         <h1>{t('title')}</h1>
       </div>
