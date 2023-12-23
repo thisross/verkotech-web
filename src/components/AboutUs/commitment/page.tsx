@@ -1,7 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 export default function Commitment() {
   return (
-    <section className="relative mt-12 flex h-[432px] w-full bg-gradient-to-r from-[#1D3557] to-[#010D20] px-4 md:mt-[100px]">
+    <section className="mt-12 flex w-full bg-gradient-to-r from-[#1D3557] to-[#010D20] px-4 py-8 md:mt-[100px] lg:h-[432px]">
       <div className="mx-auto flex  w-full max-w-[1280px] flex-col items-center md:flex-row">
         <div className="mt-12 flex w-full flex-col items-start gap-3 pl-8 lg:w-1/2">
           <div className="text-verkotech-primary bg-white p-2">
