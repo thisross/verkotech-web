@@ -35,7 +35,7 @@ export default function AboutUsHome() {
           </ol>
         </div>
 
-        <div className="mx-auto grid max-w-[1280px] grid-cols-1 justify-items-center gap-4 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-[1280px] grid-cols-1 justify-items-center gap-4 sm:grid-cols-2">
           <CardAboutUsHome />
           <CardAboutUsHome />
         </div>

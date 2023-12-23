@@ -1,6 +1,6 @@
 import { Activity, Forward } from 'lucide-react'
 import { useTranslations } from 'next-intl'
-import { Button } from '../ui/button'
+import { Button } from '../../ui/button'
 
 export default function Hero() {
   const t = useTranslations('Index')

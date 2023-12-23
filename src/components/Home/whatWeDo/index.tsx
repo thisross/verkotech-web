@@ -1,5 +1,5 @@
 import { Forward } from 'lucide-react'
-import { Button } from '../ui/button'
+import { Button } from '../../ui/button'
 import CardServices from './CardService'
 
 export default function WhatWeDo() {

@@ -1,7 +1,7 @@
-import AboutUsHome from '@/components/aboutUsHome'
-import Hero from '@/components/hero'
-import InnovateTogether from '@/components/innovateTogether'
-import WhatWeDo from '@/components/whatWeDo'
+import AboutUsHome from '@/components/Home/aboutUsHome'
+import Hero from '@/components/Home/hero'
+import InnovateTogether from '@/components/Home/innovateTogether'
+import WhatWeDo from '@/components/Home/whatWeDo'
 
 export default function Home() {
   return (
