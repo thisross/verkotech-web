@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <>
       <section className="w-full px-4">
-        <div className="mx-auto w-full max-w-[1200px] pt-36">
+        <div className="mx-auto w-full max-w-[1200px] pt-24">
           <ol className="relative border-l-2 border-verkotech-lightBlue  ">
             <li className="mb-0 ml-6">
               {/* Step */}

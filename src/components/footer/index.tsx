@@ -41,14 +41,14 @@ export default function Footer() {
             </a>
             . All Rights Reserved.
           </span>
-          <ul className="text-verkotech-pink flex flex-wrap items-center gap-2 text-sm font-medium sm:mt-0 dark:text-gray-400">
-            <li className="border-verkotech-pink flex h-[36px] w-[36px] items-center justify-center rounded-[4px] border">
+          <ul className="flex flex-wrap items-center gap-2 text-sm font-medium text-verkotech-pink sm:mt-0 dark:text-gray-400">
+            <li className="flex h-[36px] w-[36px] items-center justify-center rounded-[4px] border border-verkotech-pink">
               <Linkedin size={20} />
             </li>
-            <li className="border-verkotech-pink flex h-[36px] w-[36px] items-center justify-center rounded-[4px] border">
+            <li className="flex h-[36px] w-[36px] items-center justify-center rounded-[4px] border border-verkotech-pink">
               <Facebook size={20} />
             </li>
-            <li className="border-verkotech-pink flex h-[36px] w-[36px] items-center justify-center rounded-[4px] border">
+            <li className="flex h-[36px] w-[36px] items-center justify-center rounded-[4px] border border-verkotech-pink">
               <Instagram size={20} />
             </li>
           </ul>
