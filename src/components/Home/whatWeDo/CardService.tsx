@@ -3,7 +3,7 @@ export default function CardServices() {
     <>
       <div className="flex min-h-[300px] w-full flex-col items-center justify-center rounded-[16px] border border-slate-300 bg-white px-8 shadow-sm">
         <div>
-          <span className="text-verkotech-primary rounded-[8px] border border-slate-200 p-2 font-semibold">
+          <span className="rounded-[8px] border border-slate-200 p-2 font-semibold text-verkotech-primary">
             SAP Consultants
           </span>
 

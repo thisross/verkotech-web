@@ -9,16 +9,16 @@ export default function AboutUsHome() {
     <>
       <section className="w-full px-4">
         <div className="mx-auto mt-[72px] w-full max-w-[1200px] lg:mt-[-76px] lg:pt-0">
-          <ol className="border-verkotech-lightBlue relative xl:border-l-2">
+          <ol className="relative border-verkotech-lightBlue xl:border-l-2">
             <li className="ml-6 hidden h-[132px] lg:block"></li>
             <li className="mb-0 ml-6">
               {/* Step */}
-              <span className="border-verkotech-lightBlue absolute -left-3 hidden h-6 w-6 items-center justify-center rounded-[4px] border-2 bg-gray-50 text-slate-500 ring-inset xl:flex">
+              <span className="absolute -left-3 hidden h-6 w-6 items-center justify-center rounded-[4px] border-2 border-verkotech-lightBlue bg-gray-50 text-slate-500 ring-inset xl:flex">
                 <Boxes size={16} className="text-verkotech-lightBlue" />
               </span>
               <div className="flex flex-col items-start">
                 {/* Start Step Header */}
-                <div className="bg-verkotech-lightBlue mb-6 mt-[-32px] inline-block p-4">
+                <div className="mb-6 mt-[-32px] inline-block bg-verkotech-lightBlue p-4">
                   <h2 className="max-w-4xl text-4xl font-semibold leading-tight tracking-tighter text-white md:max-w-5xl md:text-6xl">
                     About Us
                   </h2>

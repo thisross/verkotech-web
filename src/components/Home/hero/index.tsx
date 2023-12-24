@@ -21,9 +21,8 @@ export default function Hero() {
                   <h2 className="text- max-w-4xl text-3xl font-semibold  leading-tight tracking-tighter text-verkotech-primary md:max-w-5xl md:text-6xl">
                     Integrating{' '}
                     <span className="text-verkotech-pink">
-                      {' '}
-                      global strategies{' '}
-                    </span>{' '}
+                      global strategies
+                    </span>
                     with local cultural and legal requirements.
                   </h2>
                 </div>
@@ -36,7 +35,7 @@ export default function Hero() {
                 </p>
 
                 <Button className="flex h-[44px] max-w-[142px] gap-2 rounded-[4px] bg-verkotech-primary font-semibold">
-                  Get In Touch <Forward size={20} />{' '}
+                  Get In Touch <Forward size={20} />
                 </Button>
               </div>
             </li>

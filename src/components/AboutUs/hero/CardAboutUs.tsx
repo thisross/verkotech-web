@@ -14,7 +14,7 @@ export default function CardAboutUs() {
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
           <div className="px-8 py-8">
-            <span className="text-verkotech-primary  rounded-[8px] border border-slate-200 p-2 font-semibold">
+            <span className="rounded-[8px]  border border-slate-200 p-2 font-semibold text-verkotech-primary">
               SAP Consultants
             </span>
 
