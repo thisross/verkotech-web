@@ -21,7 +21,7 @@ export default function OutsourcingExperts() {
           <div className="mb-8 flex flex-col gap-3 max-xl:w-full">
             <div className="flex flex-col gap-2 xl:flex-row">
               <Badge className="text-md rounded-[4px] border border-slate-200 text-verkotech-primary">
-                {t('weOurtsource')}
+                {t('weOurtsource')}:
               </Badge>
               <Badge className="text-md rounded-[4px] bg-verkotech-primary text-white">
                 Software Factory
@@ -33,7 +33,7 @@ export default function OutsourcingExperts() {
 
             <div className="flex flex-col gap-2 xl:flex-row">
               <Badge className="text-md rounded-[4px] border border-slate-200 text-verkotech-primary">
-                Thomson Reuters
+                Thomson Reuters:
               </Badge>
               <Badge className="text-md rounded-[4px] bg-verkotech-primary text-white">
                 {'Onesource (Global Trade)'}
