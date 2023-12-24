@@ -5,7 +5,7 @@ export default function CardAboutUsHome() {
     <>
       <div className="flex h-auto w-full flex-col items-center justify-center rounded-[16px] border border-slate-300 bg-white px-8 py-8 shadow-sm">
         <div className="flex flex-col items-start">
-          <span className="text-verkotech-primary  rounded-[8px] border border-slate-200 p-2 font-semibold">
+          <span className="rounded-[8px]  border border-slate-200 p-2 font-semibold text-verkotech-primary">
             SAP Consultants
           </span>
 
