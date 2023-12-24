@@ -9,16 +9,16 @@ export default function Hero() {
     <>
       <section className="w-full px-4">
         <div className="mx-auto w-full max-w-[1200px] pt-36">
-          <ol className="border-verkotech-lightBlue relative border-l-2  ">
+          <ol className="relative border-l-2 border-verkotech-lightBlue  ">
             <li className="mb-0 ml-6">
               {/* Step */}
-              <span className="border-verkotech-lightBlue absolute -left-3 flex h-6 w-6 items-center justify-center rounded-[4px] border-2 bg-gray-50 text-slate-500 ring-inset">
+              <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-[4px] border-2 border-verkotech-lightBlue bg-gray-50 text-slate-500 ring-inset">
                 <Activity size={16} className="text-verkotech-lightBlue" />
               </span>
               <div className="flex flex-col">
                 {/* Start Step Header */}
-                <div className="border-verkotech-lightBlue mb-6 mt-[-64px] flex w-auto border p-4">
-                  <h2 className="text- text-verkotech-primary max-w-4xl text-3xl  font-semibold leading-tight tracking-tighter md:max-w-5xl md:text-6xl">
+                <div className="mb-6 mt-[-64px] flex w-auto border border-verkotech-lightBlue p-4">
+                  <h2 className="text- max-w-4xl text-3xl font-semibold  leading-tight tracking-tighter text-verkotech-primary md:max-w-5xl md:text-6xl">
                     Integrating{' '}
                     <span className="text-verkotech-pink">
                       {' '}
@@ -35,7 +35,7 @@ export default function Hero() {
                   requirements and legal regulations
                 </p>
 
-                <Button className="bg-verkotech-primary flex h-[44px] max-w-[142px] gap-2 rounded-[4px] font-semibold">
+                <Button className="flex h-[44px] max-w-[142px] gap-2 rounded-[4px] bg-verkotech-primary font-semibold">
                   Get In Touch <Forward size={20} />{' '}
                 </Button>
               </div>

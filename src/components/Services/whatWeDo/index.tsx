@@ -18,12 +18,16 @@ export default function WhatWeDo() {
         </div>
       </section>
       <div className="mx-auto mt-[-156px] w-full px-6 sm:mt-[-232px] md:mt-[-200px]">
-        <div className="mx-auto grid max-w-[1280px] grid-cols-1 justify-items-center gap-4 lg:grid-cols-3">
+        <div className="mx-auto mb-4 grid max-w-[1280px] grid-cols-1 justify-items-center gap-4 lg:grid-cols-3">
           <CardServices />
           <CardServices />
           <CardServices />
         </div>
-        <div className="flex w-full items-center justify-center pt-8 ">
+        <div className="mx-auto grid max-w-[1280px] grid-cols-1 justify-items-center gap-4 lg:grid-cols-2">
+          <CardServices />
+          <CardServices />
+        </div>
+        <div className="flex w-full items-center justify-center pt-8">
           <Button className="z-20 flex h-[44px] max-w-[142px] gap-2 rounded-[4px] bg-verkotech-primary font-semibold">
             See More <Forward size={20} />{' '}
           </Button>
