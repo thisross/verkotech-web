@@ -2,6 +2,19 @@ import { Boxes } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import CardAboutUsHome from './CardAboutUsHome'
 
+const CARD_ABOUT_DATA = [
+  {
+    title: 'welcome',
+    description: 'welcomeDetails',
+    image: '/woman-man-draw.jpg',
+  },
+  {
+    title: 'PMO',
+    description: 'PMODetails',
+    image: '/woman-office.jpg',
+  },
+]
+
 export default function AboutUsHome() {
   const t = useTranslations('Index')
 
@@ -20,7 +33,7 @@ export default function AboutUsHome() {
                 {/* Start Step Header */}
                 <div className="mb-6 mt-[-32px] inline-block bg-verkotech-lightBlue p-4">
                   <h2 className="max-w-4xl text-4xl font-semibold leading-tight tracking-tighter text-white md:max-w-5xl md:text-6xl">
-                    About Us
+                    {t('aboutUs')}
                   </h2>
                 </div>
                 <p className="mb-6 max-w-2xl text-sm text-slate-400 md:text-base">
@@ -36,8 +49,14 @@ export default function AboutUsHome() {
         </div>
 
         <div className="mx-auto grid max-w-[1280px] grid-cols-1 justify-items-center gap-4 sm:grid-cols-2">
-          <CardAboutUsHome />
-          <CardAboutUsHome />
+          {CARD_ABOUT_DATA.map((data, index) => (
+            <CardAboutUsHome
+              title={data.title}
+              description={data.description}
+              image={data.image}
+              key={index}
+            />
+          ))}
         </div>
       </section>
     </>

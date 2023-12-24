@@ -19,23 +19,20 @@ export default function Hero() {
                 {/* Start Step Header */}
                 <div className="mb-6 mt-[-64px] flex w-auto border border-verkotech-lightBlue p-4">
                   <h2 className="text- max-w-4xl text-3xl font-semibold  leading-tight tracking-tighter text-verkotech-primary md:max-w-5xl md:text-6xl">
-                    Integrating{' '}
+                    {t('integrating')}{' '}
                     <span className="text-verkotech-pink">
-                      global strategies
+                      {t('globalStrategies')}
                     </span>
-                    with local cultural and legal requirements.
+                    {t('localCultural')}
                   </h2>
                 </div>
                 <p className="mb-6 text-sm text-slate-400 md:text-base">
-                  VERKOTECH is focused on supporting American and Canadian
-                  companies with a presence in Latin America, helping them
-                  tackle the technological challenges of integrating their
-                  global processes and strategies with local business
-                  requirements and legal regulations
+                  {t('p')}
                 </p>
 
                 <Button className="flex h-[44px] max-w-[142px] gap-2 rounded-[4px] bg-verkotech-primary font-semibold">
-                  Get In Touch <Forward size={20} />
+                  {t('getInTouch')}
+                  <Forward size={20} />
                 </Button>
               </div>
             </li>

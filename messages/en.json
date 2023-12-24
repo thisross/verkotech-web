@@ -1,6 +1,29 @@
 {
   "Index": {
-    "title": "Hello world!"
+    "integrating": "Integrating",
+    "globalStrategies": "global strategies ",
+    "localCultural": "with local cultural and legal requirements.",
+    "p": "VERKOTECH is focused on supporting American and Canadian companies with a presence in Latin America, helping them tackle the technological challenges of integrating their global processes and strategies with local business requirements and legal regulations",
+    "getInTouch": "Get In Touch",
+    "whatWeDo": "What we do?",
+    "weUnderstand": "We understand the integration needs of global environments and adapt them to meet local needs and realities, aligning global strategies with the specific cultural and legal requirements of each location",
+    "SAPConsultants": "SAP Consultants",
+    "SAPdetails": "Your SAP Consultants of choice. Unlock business potential with our expert solutions. Streamline operations, maximize efficiency. Let's elevate your business together!",
+    "PMO": "Project Manager (PMO)",
+    "PMODetails": "Your Project Management Office (PMO) experts. Drive success, ensure efficiency, and deliver excellence in every project. Let's elevate your strategies together!",
+    "BusinessAnalysts": "Business Analysts",
+    "BusinessAnalystsDetails": "Your Business Analysis specialists. Uncover insights, drive innovation, and optimize strategies for your success. Let's transform your business vision together!",
+    "seeMore": "See More",
+    "aboutUs": "About Us",
+    "aboutUsDetails": "Welcome to VERKOTECH, your dedicated partner in technological innovation. We were born with a clear mission: to drive digital transformation in established companies and startups, propelling them to new levels of excellence.",
+    "welcome": "Welcome",
+    "welcomeDetails": "By choosing VERKOTECH, you are opting for a solid partnership based on innovation, commitment, and excellence. We are here to propel your success, turning challenges into opportunities and ideas into reality.",
+    "alwaysCompetitive": "Always Competitive",
+    "alwaysCompetitiveDetails":"We not only embrace the latest technologies but also shape them to meet the specific needs of our clients. We are fueled by the passion to drive digital evolution, empowering organizations to thrive in an increasingly dynamic and competitive world.",
+    "innovateTogether": "Let's Innovate together?",
+    "innovateTogetherDetails": "In today's business landscape, seamless integration is paramount—blending worldwide strategies with local requirements poses a significant challenge. VERKOTECH leads this integration, supporting North American companies expanding into Latin America.",
+    "getInTouchDetails": "Are you ready to unlock the full potential of your business expansion into Latin America? Look no further! VERKOTECH is your gateway to seamless integration and unparalleled success in this dynamic market.",
+    "contact": "Contact"
   },
   "Services": {
     "title": "Services"

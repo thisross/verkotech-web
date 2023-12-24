@@ -1,6 +1,30 @@
 {
-  "Index": {
-    "title": "Olá Mundo!"
+ 
+"Index": {
+  "integrating": "Integrando",
+  "globalStrategies": "estratégias globais ",
+  "localCultural": "com requisitos culturais e legais locais.",
+  "p": "A VERKOTECH está focada em apoiar empresas americanas e canadenses com presença na América Latina, ajudando-as a enfrentar os desafios tecnológicos de integrar seus processos e estratégias globais com os requisitos comerciais locais e regulamentações legais.",
+  "getInTouch": "Entre em Contato",
+  "whatWeDo": "O que fazemos?",
+  "weUnderstand": "Nós entendemos as necessidades de integração de ambientes globais e as adaptamos para atender às necessidades e realidades locais, alinhando estratégias globais com os requisitos culturais e legais específicos de cada localidade.",
+  "SAPConsultants": "Consultores SAP",
+  "SAPdetails": "Seus consultores SAP de escolha. Desbloqueie o potencial de negócios com nossas soluções especializadas. Otimize operações, maximize a eficiência. Vamos elevar seu negócio juntos!",
+  "PMO": "Gerente de Projeto (PMO)",
+  "PMODetails": "Seus especialistas em Escritório de Gerenciamento de Projetos (PMO). Conduza o sucesso, garanta eficiência e entregue excelência em todos os projetos. Vamos elevar suas estratégias juntos!",
+  "BusinessAnalysts": "Analistas de Negócios",
+  "BusinessAnalystsDetails": "Seus especialistas em Análise de Negócios. Descubra insights, impulsione a inovação e otimize estratégias para o seu sucesso. Vamos transformar a visão do seu negócio juntos!",
+  "seeMore": "Ver Mais",
+  "aboutUs": "Sobre Nós",
+  "aboutUsDetails": "Bem-vindo à VERKOTECH, seu parceiro dedicado à inovação tecnológica. Nascemos com uma missão clara: impulsionar a transformação digital em empresas estabelecidas e startups, levando-as a novos patamares de excelência.",
+  "welcome": "Bem-vindo",
+  "welcomeDetails": "Ao escolher a VERKOTECH, você está optando por uma parceria sólida baseada em inovação, compromisso e excelência. Estamos aqui para impulsionar o seu sucesso, transformando desafios em oportunidades e ideias em realidade.",
+  "alwaysCompetitive": "Sempre Competitivos",
+  "alwaysCompetitiveDetails":"Não apenas abraçamos as últimas tecnologias, mas também as moldamos para atender às necessidades específicas de nossos clientes. Somos impulsionados pela paixão de impulsionar a evolução digital, capacitando organizações a prosperar em um mundo cada vez mais dinâmico e competitivo.",
+  "innovateTogether": "Vamos Inovar juntos?",
+  "innovateTogetherDetails": "No cenário empresarial atual, a integração perfeita é fundamental — mesclar estratégias globais com requisitos locais apresenta um desafio significativo. A VERKOTECH lidera essa integração, apoiando empresas norte-americanas que expandem para a América Latina.",
+  "getInTouchDetails": "Você está pronto para desbloquear todo o potencial da expansão do seu negócio para a América Latina? Não procure mais! A VERKOTECH é sua porta de entrada para integração perfeita e sucesso incomparável neste mercado dinâmico.",
+  "contact": "Contato"
   },
   "Services": {
     "title": "Serviços"
