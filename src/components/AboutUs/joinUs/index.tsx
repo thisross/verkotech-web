@@ -1,21 +1,24 @@
 import { Button } from '@/components/ui/button'
 import { Forward } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 
 export default function JoinUs() {
+  const t = useTranslations('AboutUs')
+
   return (
     <section className="flex w-full items-center justify-center px-4 pt-20">
       <div className="mx-auto flex max-w-[1200px] flex-col items-center">
         <span className="mb-6 rounded-[8px] bg-verkotech-primary p-1 px-2 font-semibold">
-          Join Us
+          {t('joinUs')}
         </span>
         <p className="mb-8 max-w-xl text-center text-xl text-slate-400 md:text-3xl">
-          {
-            " Join us on this exciting journey towards the digital future. At VERKOTECH, we don't just embrace change,"
-          }
-          <span className="bg-verkotech-pink px-1 text-white">we lead it.</span>
+          {t('joinUsDetails')}
+          <span className="bg-verkotech-pink px-1 text-white">
+            {t('weLeadIt')}
+          </span>
         </p>
         <Button className="flex h-[48px] gap-2  rounded-[4px] bg-verkotech-lightBlue text-lg font-semibold text-white">
-          Get In Touch <Forward size={20} />
+          {t('getInTouch')} <Forward size={20} />
         </Button>
       </div>
     </section>

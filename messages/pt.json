@@ -26,7 +26,45 @@
   "getInTouchDetails": "Você está pronto para desbloquear todo o potencial da expansão do seu negócio para a América Latina? Não procure mais! A VERKOTECH é sua porta de entrada para integração perfeita e sucesso incomparável neste mercado dinâmico.",
   "contact": "Contato"
   },
-  "Services": {
-    "title": "Serviços"
+  "AboutUs": {
+    "title": "Verkotech",
+    "your": "Seu",
+    "dedicatedPartner": "parceiro dedicado",
+    "tech": "em inovação tecnológica",
+    "welcome": "Bem-vindo",
+    "welcomeDetails": "Bem-vindo à VERKOTECH, seu parceiro dedicado em inovação tecnológica. Nascemos com uma missão clara: impulsionar a transformação digital em empresas estabelecidas e startups, impulsionando-as a novos patamares de excelência.",
+    "alwaysCompetitive": "Sempre Competitivos",
+    "alwaysCompetitiveDetails": "Não apenas abraçamos as tecnologias mais recentes, mas também as moldamos para atender às necessidades específicas de nossos clientes. Somos impulsionados pela paixão em impulsionar a evolução digital, capacitando organizações a prosperar em um mundo cada vez mais dinâmico e competitivo.",
+    "commitment": "Compromisso",
+    "commitmentDetails": "Nosso compromisso vai além de simplesmente fornecer soluções tecnológicas. Buscamos catalisar o desenvolvimento profissional, capacitando indivíduos e equipes a alcançarem seu pleno potencial.",
+    "weBelieve": "Acreditamos que investindo nas habilidades e conhecimento de nossa equipe podemos mudar o mundo.",
+    "joinUs": "Junte-se a nós",
+    "joinUsDetails": "Junte-se a nós nesta jornada empolgante rumo ao futuro digital. Na VERKOTECH, não apenas abraçamos a mudança, ",
+    "weLeadIt": "nós a lideramos.",
+    "getInTouch": "Entre em Contato"
+  },
+  "OurServices": {
+    "title": "Nossos Serviços",
+    "description": "Nascemos com uma missão clara: impulsionar a transformação digital em empresas estabelecidas e startups, impulsionando-as a",
+    "description2": "novos patamares de excelência.",
+    "whatWeDo": "O que fazemos?",
+    "weUnderstand": "Entendemos as necessidades de integração de ambientes globais e as adaptamos para atender às necessidades e realidades locais, alinhando estratégias globais aos requisitos culturais e legais específicos de cada localização.",
+    "SAPConsultants": "Consultores SAP",
+    "SAPdetails": "Seus Consultores SAP de escolha. Libere o potencial de negócios com nossas soluções especializadas. Otimize operações, maximize a eficiência. Vamos elevar o seu negócio juntos!",
+    "PMO": "Gerente de Projetos (PMO)",
+    "PMODetails": "Seus especialistas em Escritório de Gerenciamento de Projetos (PMO). Conduza o sucesso, garanta a eficiência e entregue a excelência em cada projeto. Vamos elevar suas estratégias juntos!",
+    "BusinessAnalysts": "Analistas de Negócios",
+    "BusinessAnalystsDetails": "Seus especialistas em Análise de Negócios. Descubra insights, impulsione a inovação e otimize estratégias para o seu sucesso. Vamos transformar a visão do seu negócio juntos!",
+    "SAPDevelopers": "Desenvolvedores SAP",
+    "SAPDevelopersDetails": "Seus magos do Desenvolvimento SAP. Criando soluções personalizadas, otimizando o desempenho e inovando para o crescimento do seu negócio. Vamos escrever juntos a história do seu sucesso!",
+    "digitalDevelopers": "Desenvolvedores Digitais (multilíngues)",
+    "digitalDevelopersDetails": "Seus Desenvolvedores Digitais Multilíngues. Criando soluções diversas, conectando idiomas e inovando em várias plataformas para o seu sucesso global. Vamos programar um futuro sem fronteiras juntos!",
+    "seeMore": "Veja Mais",
+    "outsourcingExperts": "Experts em Terceirização",
+    "weOurtsource": "Terceirizamos",
+    "outsourcingExpertsDetails": "A Verkotech oferece soluções de terceirização de primeira linha. Desde tecnologia até operações, confie em nós para suporte contínuo. Em parceira com a Thomson Reuters, garantimos qualidade, confiabilidade e expertise em cada serviço para o sucesso do seu negócio.",
+    "joinUs": "Junte-se a nós",
+    "joinUsDetails": "Junte-se a nós nesta jornada empolgante rumo ao futuro digital. Na VERKOTECH, não apenas abraçamos a mudança, ",
+    "getInTouch": "Entre em Contato"
   }
 }

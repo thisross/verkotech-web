@@ -1,6 +1,9 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import { useTranslations } from 'next-intl'
 
 export default function WeBelieve() {
+  const t = useTranslations('AboutUs')
+
   return (
     <section className="w-full px-4 lg:px-0">
       <div className="mx-auto w-full max-w-[1200px] pt-12 lg:pt-24">
@@ -11,13 +14,11 @@ export default function WeBelieve() {
               className="object-cover"
               alt="@webelieve"
             />
-            <AvatarFallback>We Believe</AvatarFallback>
+            <AvatarFallback>We Believe Image</AvatarFallback>
           </Avatar>
           <div className="md:w-1/2">
             <p className="max-w-md font-serif text-slate-900 md:text-xl">
-              {
-                ' ” We believe that by investing in the skills and knowledge of our team we can change the world.”'
-              }
+              {t('weBelieve')}
             </p>
             <Avatar className="mt-6 h-[60px] w-[200px] rounded-[4px] border border-slate-600 p-1">
               <AvatarImage
@@ -25,7 +26,7 @@ export default function WeBelieve() {
                 className="object-contain"
                 alt="@shadcn"
               />
-              <AvatarFallback>CN</AvatarFallback>
+              <AvatarFallback>Verkotech Logomarca azul</AvatarFallback>
             </Avatar>
           </div>
         </div>
