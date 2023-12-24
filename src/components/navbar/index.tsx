@@ -7,7 +7,6 @@ import { Link, usePathname, useRouter } from '../../../navigation'
 import { Button } from '../ui/button'
 
 export default function Navbar() {
-  const router = useRouter()
   const pathname = usePathname()
 
   const links = [
@@ -46,7 +45,7 @@ export default function Navbar() {
                       key={index}
                       className={
                         pathname === link?.url
-                          ? 'font-semibold text-white'
+                          ? 'font-semibold text-verkotech-primary'
                           : 'text-zinc-500'
                       }
                     >

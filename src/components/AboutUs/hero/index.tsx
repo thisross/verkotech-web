@@ -3,7 +3,7 @@ import CardAboutUs from './CardAboutUs'
 export default function Hero() {
   return (
     <section className="w-full px-4">
-      <div className="mx-auto flex w-full max-w-[1000px] flex-col pt-24">
+      <div className="mx-auto flex w-full max-w-[1000px] flex-col pt-8">
         <div className="mb-2 flex w-auto self-start border border-verkotech-primary p-4">
           <h2 className="text- max-w-4xl text-3xl font-semibold  leading-tight tracking-tighter text-verkotech-primary md:max-w-5xl md:text-6xl">
             VERKOTECH
