@@ -31,7 +31,7 @@ export default function LocaleLayout({
       <body className={inter.className}>
         <Navbar lang={locale} />
         {children}
-        <Footer />
+        <Footer lang={locale} />
       </body>
     </html>
   )

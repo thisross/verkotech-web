@@ -1,7 +1,36 @@
+'use client'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Facebook, Instagram, Linkedin } from 'lucide-react'
+import { Link, usePathname, useRouter } from '../../../navigation'
 
-export default function Footer() {
+interface ILanguages {
+  lang: string
+}
+
+// Translations
+const linksEn = [
+  { title: 'Home', url: '/' },
+  { title: 'About Us', url: '/aboutUs' },
+  { title: 'Services', url: '/services' },
+]
+const linksPt = [
+  { title: 'Início', url: '/' },
+  { title: 'Sobre Nós', url: '/aboutUs' },
+  { title: 'Serviços', url: '/services' },
+]
+const contentEn = {
+  cta: 'Get In Touch',
+}
+const contentPt = {
+  cta: 'Entrar em contato',
+}
+export default function Footer({ lang }: ILanguages) {
+  const pathname = usePathname()
+  const router = useRouter()
+
+  const linksMapped = lang === 'en' ? linksEn : linksPt
+  const contentToShow = lang === 'en' ? contentEn : contentPt
+
   return (
     <footer className="relative bottom-0 left-0 z-20 mt-24 flex w-full flex-col border-t border-gray-200 bg-white p-4 shadow md:flex md:items-center md:justify-between md:p-6 dark:border-gray-600 dark:bg-gray-800">
       <div className="mx-auto w-full max-w-[1280px]">
@@ -15,21 +44,16 @@ export default function Footer() {
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
           <ul className="mt-3 flex flex-wrap items-center gap-3 text-sm font-medium text-gray-500 sm:mt-0 dark:text-gray-400">
-            <li>
-              <a href="#" className=" transition-all hover:text-slate-800  ">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#" className=" transition-all hover:text-slate-800  ">
-                About Us
-              </a>
-            </li>
-            <li>
-              <a href="#" className=" transition-all hover:text-slate-800  ">
-                Services
-              </a>
-            </li>
+            {linksMapped.map((data, index) => (
+              <li key={index}>
+                <Link
+                  href={data.url}
+                  className=" transition-all hover:text-slate-800  "
+                >
+                  {data.title}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
         <div className="my-6 h-[1px] w-full bg-slate-200"></div>
