@@ -1,4 +1,17 @@
 {
+  "Navbar": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "services":  "Services",
+    "getInTouch": "Get In Touch"
+  },
+  "Footer": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "services":  "Services",
+    "getInTouch": "Get In Touch",
+    "allRights": "2023 Eder Rosa, All rights reserved"
+  },
   "Index": {
     "integrating": "Integrating",
     "globalStrategies": "global strategies ",

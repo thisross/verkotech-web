@@ -4,6 +4,7 @@ import '../globals.css'
 import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
 import { notFound } from 'next/navigation'
+import { useTranslations } from 'next-intl'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,7 +29,7 @@ export default function LocaleLayout({
   return (
     <html lang={locale} className="antialiased">
       <body className={inter.className}>
-        <Navbar />
+        <Navbar lang={locale} />
         {children}
         <Footer />
       </body>

@@ -1,5 +1,17 @@
 {
- 
+  "Navbar": {
+    "home": "Início",
+    "aboutUs": "Sobre Nós",
+    "services": "Serviços",
+    "getInTouch": "Entre em Contato"
+},
+"Footer": {
+    "home": "Início",
+    "aboutUs": "Sobre Nós",
+    "services": "Serviços",
+    "getInTouch": "Entre em Contato",
+    "allRights": "2023 Eder Rosa, Todos os direitos reservados"
+},
 "Index": {
   "integrating": "Integrando",
   "globalStrategies": "estratégias globais ",
