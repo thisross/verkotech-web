@@ -5,11 +5,14 @@ import WeBelieve from '@/components/AboutUs/weBelieve'
 
 export default function AboutUs() {
   return (
-    <main className="flex min-h-screen w-screen flex-col bg-white">
-      <Hero />
-      <Commitment />
-      <WeBelieve />
-      <JoinUs />
-    </main>
+    <>
+      <title>Verkotech - About Us</title>
+      <main className="flex min-h-screen w-screen flex-col bg-white">
+        <Hero />
+        <Commitment />
+        <WeBelieve />
+        <JoinUs />
+      </main>
+    </>
   )
 }

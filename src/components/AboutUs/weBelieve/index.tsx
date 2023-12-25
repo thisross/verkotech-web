@@ -10,7 +10,7 @@ export default function WeBelieve() {
         <div className="flex w-full flex-col justify-between gap-4 md:flex-row md:items-center">
           <Avatar className="h-[392px] w-full rounded-[8px] md:w-[456px]">
             <AvatarImage
-              src="/webelievez.jpg"
+              src="/webe.jpg"
               className="object-cover"
               alt="@webelieve"
             />
