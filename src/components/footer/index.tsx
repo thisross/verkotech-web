@@ -1,7 +1,7 @@
 'use client'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Facebook, Instagram, Linkedin } from 'lucide-react'
-import { Link, usePathname, useRouter } from '../../../navigation'
+import { Link } from '../../../navigation'
 
 interface ILanguages {
   lang: string
@@ -25,11 +25,7 @@ const contentPt = {
   cta: 'Entrar em contato',
 }
 export default function Footer({ lang }: ILanguages) {
-  const pathname = usePathname()
-  const router = useRouter()
-
   const linksMapped = lang === 'en' ? linksEn : linksPt
-  const contentToShow = lang === 'en' ? contentEn : contentPt
 
   return (
     <footer className="relative bottom-0 left-0 z-20 mt-24 flex w-full flex-col border-t border-gray-200 bg-white p-4 shadow md:flex md:items-center md:justify-between md:p-6 dark:border-gray-600 dark:bg-gray-800">

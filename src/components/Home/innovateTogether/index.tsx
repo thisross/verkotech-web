@@ -36,7 +36,11 @@ export default function InnovateTogether() {
             <p className="text-sm text-slate-400 md:text-base">
               {t('getInTouchDetails')}
             </p>
-            <Link href={'https://wa.me/+13056761715'} target="_blank">
+            <Link
+              href={'https://wa.me/+13056761715'}
+              target="_blank"
+              className="hidden md:flex"
+            >
               <Button className="flex h-[44px] max-w-[142px] gap-2 rounded-[4px] bg-green-500 font-semibold">
                 <IoLogoWhatsapp /> {t('contact')}
               </Button>
