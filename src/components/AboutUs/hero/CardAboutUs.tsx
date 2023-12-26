@@ -17,7 +17,7 @@ export default function CardAboutUs({
     <>
       <div className="flex h-auto w-full flex-col items-center overflow-hidden rounded-[16px] border border-slate-300 bg-white shadow-sm">
         <div className="flex flex-col items-start">
-          <Avatar className="h-[200px] w-full rounded-none bg-red-400 lg:h-[372px]">
+          <Avatar className="h-[200px] w-full rounded-none bg-slate-100 lg:h-[372px]">
             <AvatarImage src={image} className="object-cover" alt="@shadcn" />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
