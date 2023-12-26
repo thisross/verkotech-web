@@ -107,9 +107,11 @@ export default function Navbar({ lang }: ILanguages) {
                 }}
               />
             </Link>
-            <Button className="gap-2 rounded-[4px] bg-green-500 text-[14px] font-semibold">
-              <IoLogoWhatsapp size={20} /> {contentToShow.cta}
-            </Button>
+            <Link href={'https://wa.me/+13056761715'} target="_blank">
+              <Button className="gap-2 rounded-[4px] bg-green-500 text-[14px] font-semibold">
+                <IoLogoWhatsapp size={20} /> {contentToShow.cta}
+              </Button>
+            </Link>
           </div>
 
           <div className="flex md:hidden">

@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { Forward } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import { Link } from '../../../../navigation'
 
 export default function JoinUs() {
   const t = useTranslations('AboutUs')
@@ -17,9 +18,11 @@ export default function JoinUs() {
             {t('weLeadIt')}
           </span>
         </p>
-        <Button className="flex h-[48px] gap-2  rounded-[4px] bg-verkotech-lightBlue text-lg font-semibold text-white">
-          {t('getInTouch')} <Forward size={20} />
-        </Button>
+        <Link href={'https://wa.me/+13056761715'} target="_blank">
+          <Button className="flex h-[48px] gap-2  rounded-[4px] bg-verkotech-lightBlue text-lg font-semibold text-white">
+            {t('getInTouch')} <Forward size={20} />
+          </Button>
+        </Link>
       </div>
     </section>
   )

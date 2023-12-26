@@ -2,6 +2,7 @@ import { Forward } from 'lucide-react'
 import { Button } from '../../ui/button'
 import CardServices from './CardService'
 import { useTranslations } from 'next-intl'
+import { Link } from '../../../../navigation'
 
 const CARD_SERVICES_DATAUP = [
   {
@@ -64,9 +65,11 @@ export default function WhatWeDo() {
           ))}
         </div>
         <div className="flex w-full items-center justify-center pt-8">
-          <Button className="z-20 flex h-[44px] max-w-[142px] gap-2 rounded-[4px] bg-verkotech-primary font-semibold">
-            {t('seeMore')} <Forward size={20} />{' '}
-          </Button>
+          <Link href="/services">
+            <Button className="z-20 flex h-[44px] max-w-[142px] gap-2 rounded-[4px] bg-verkotech-primary font-semibold">
+              {t('seeMore')} <Forward size={20} />{' '}
+            </Button>
+          </Link>
         </div>
       </div>
     </>
