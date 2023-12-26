@@ -56,7 +56,11 @@ export default function Navbar({ lang }: ILanguages) {
             <Link href="/">
               <Avatar className="h-[48px] w-[156px]">
                 <AvatarImage
-                  src="/logomarca-blue.png"
+                  src={
+                    pathname === '/aboutUs'
+                      ? '/logomarca-pink.png'
+                      : '/logomarca-blue.png'
+                  }
                   className="object-contain"
                   alt="@shadcn"
                 />
