@@ -73,9 +73,8 @@ export default function Navbar({ lang }: ILanguages) {
             <ul className="flex space-x-3 font-medium">
               {linksMapped?.map((link, index) => (
                 <>
-                  <Link href={link?.url}>
+                  <Link href={link?.url} key={index}>
                     <li
-                      key={index}
                       className={
                         pathname === link?.url
                           ? 'font-semibold text-verkotech-primary'

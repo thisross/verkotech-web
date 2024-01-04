@@ -35,14 +35,22 @@ export default function Footer({ lang }: ILanguages) {
     <footer className="relative bottom-0 left-0 z-20 mt-24 flex w-full flex-col border-t border-gray-200 bg-white p-4 shadow md:flex md:items-center md:justify-between md:p-6 dark:border-gray-600 dark:bg-gray-800">
       <div className="mx-auto w-full max-w-[1280px]">
         <div className="flex w-full flex-col justify-between  md:flex-row">
-          <Avatar className="h-[60px] w-[200px]">
-            <AvatarImage
-              src="/logomarca-blue.png"
-              className="object-contain"
-              alt="@shadcn"
-            />
-            <AvatarFallback>CN</AvatarFallback>
-          </Avatar>
+          <div>
+            <Avatar className="mb-4 h-[60px] w-[200px]">
+              <AvatarImage
+                src="/logomarca-blue.png"
+                className="object-contain"
+                alt="@shadcn"
+              />
+              <AvatarFallback>CN</AvatarFallback>
+            </Avatar>
+            <p className="hidden text-xs text-black md:block">
+              {lang === 'en'
+                ? '  Miami 201, South Biscayne Boulevard Suite #1200 Miami, FL 33131 USA Miami I Flórida | USA'
+                : 'Sao Paulo Av. Eng Luis Carlos Berrini, 1618 Unit 41R, SP, 04571-000, SP BR'}
+            </p>
+          </div>
+
           <ul className="mt-3 flex flex-wrap items-center gap-3 text-sm font-medium text-gray-500 sm:mt-0 dark:text-gray-400">
             {linksMapped.map((data, index) => (
               <li key={index}>
@@ -65,16 +73,30 @@ export default function Footer({ lang }: ILanguages) {
             </a>
             . All Rights Reserved.
           </span>
+          <p className="text-xs text-black md:hidden">
+            {' '}
+            {lang === 'en'
+              ? '  Miami 201, South Biscayne Boulevard Suite #1200 Miami, FL 33131 USA Miami I Flórida | USA'
+              : 'Sao Paulo Av. Eng Luis Carlos Berrini, 1618 Unit 41R, SP, 04571-000, SP BR'}
+          </p>
           <ul className="flex flex-wrap items-center gap-2 text-sm font-medium text-verkotech-pink sm:mt-0 dark:text-gray-400">
-            <li className="flex h-[36px] w-[36px] items-center justify-center rounded-[4px] border border-verkotech-pink">
-              <Linkedin size={20} />
-            </li>
-            <li className="flex h-[36px] w-[36px] items-center justify-center rounded-[4px] border border-verkotech-pink">
+            <Link
+              href={
+                'https://www.linkedin.com/company/verkotech/mycompany/?viewAsMember=true'
+              }
+              target="_blank"
+            >
+              <li className="flex h-[36px] w-[36px] items-center justify-center rounded-[4px] border border-verkotech-pink">
+                <Linkedin size={20} />
+              </li>
+            </Link>
+
+            {/* <li className="flex h-[36px] w-[36px] items-center justify-center rounded-[4px] border border-verkotech-pink">
               <Facebook size={20} />
             </li>
             <li className="flex h-[36px] w-[36px] items-center justify-center rounded-[4px] border border-verkotech-pink">
               <Instagram size={20} />
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
