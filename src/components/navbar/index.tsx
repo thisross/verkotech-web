@@ -46,7 +46,7 @@ export default function Navbar({ lang }: ILanguages) {
 
   return (
     <nav
-      className="border-b border-slate-200 bg-white py-4"
+      className="fixed top-0 z-50 w-full border-b border-slate-200 bg-white/80 py-4 backdrop-blur-xl"
       role="navigation"
       aria-label="Main"
     >

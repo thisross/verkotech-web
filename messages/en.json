@@ -79,5 +79,159 @@
     "joinUsDetails": "Join us on this exciting journey towards the digital future. At VERKOTECH, we don't just embrace change, ",
     "getInTouch": "Get In Touch"
    
+  },
+  "NewLP": {
+    "hero": {
+      "weAre": "WE'RE",
+      "verkotech": "VERKOTECH",
+      "mainTitle1": "A CONSULTANT ESPECIALIZED IN SAP",
+      "mainTitle2": "AND THOMPSON REUTERS SOLUTIONS",
+      "description": "We deliver transformation, tax compliance and support for global companies operating across the US, Canada, Brazil, and Latin America."
+    },
+    "whatWeDo": {
+      "title": "WHAT WE DO?",
+      "description": "Our services are designed to help global organizations align their SAP architecture with local requirements - bridging regulatory, operational, and cultural gaps across the Americas.",
+      "serviceTitle": "SAP Transformations (ECC - S/4HANDA & ROLLOUTS)",
+      "serviceDescription": "Our services are designed to help global organizations align their SAP architecture with local requirements - bridging regulatory, operational, and cultural gaps across the Americas."
+    },
+    "aboutUs": {
+      "title": "ABOUT US",
+      "mainHeading1": "We turn SAP complexity",
+      "mainHeading2": "into business clarity",
+      "description1": "Verkotech is a specialized SAP consulting firm dedicated to helping North American companies thrive with SAP across the Americas.",
+      "description2": "From strategy to execution, we bring structure, precision and deep industry knowledge - especially for highly regulated environments.",
+      "getInTouch": "Get in touch"
+    },
+    "whyChooseUs": {
+      "title": "WHY CHOOSE US?",
+      "description": "We don't just provide solutions; we cultivate enduring partnerships based on trust, performance, and innovative thinking. Because innovation and reliability aren't just words – they're our commitment to you.",
+      "advantageTitle": "ADVANTAGE",
+      "benefitsTitle": "BENEFITS",
+      "advantages": {
+        "chemical": "Chemical industry focused",
+        "ecss": "ECSS S / 4 HANA",
+        "bilingual": "BILINGUAL NEARSHORE TEAM",
+        "ontime": "ONTIME, ONBUDGET"
+      },
+      "benefits": {
+        "regulatory": "We know your regulatory, safety & recipe complexities",
+        "digital": "Full digital core upgrade with trade compliance",
+        "risk": "Lower risk, scalable support with language fluency",
+        "delivery": "Reliable delivery, minimized cost overruns"
+      },
+      "commitmentBanner1": "BECAUSE INNOVATION RELIABILITY AND",
+      "commitmentBanner2": "DEDICATION AREN'T JUST WORDS.",
+      "commitmentBanner3": "THEY'RE OUR COMMITMENT TO YOU"
+    },
+    "letsBuild": {
+      "mainHeading1": "Let's build smarter",
+      "mainHeading2": "solutions, ",
+      "mainHeading3": "together.",
+      "description1": "Verkotech simplifies complexity. With deep industry knowledge, bilingual consultants and a cross-border delivery model, we turn challenges into strategic advantages.",
+      "description2": "Ready to move forward? Let's talk and explore how Verkotech can drive your SAP journey – from strategy to execution. Share your goals with us. We'll transform them into real, measurable results.",
+      "getInTouch": "Get in touch"
+    }
+  },
+  "AboutUsPage": {
+    "title": "ABOUT US",
+    "paragraph1": "Verkotech is a specialized SAP and Thomson Reuters consulting firm dedicated to helping North American companies thrive with solutions across the Americas. With deep expertise in the chemical industry and a highly skilled bilingual team fluent in Portuguese and English, we provide strategic support for complex cross-border initiatives — from S/4HANA transformations to tax and trade compliance.",
+    "paragraph2": "Our commitment is to deliver tailored, efficient, and future-ready SAP solutions that bridge business and technology across regions. At Verkotech, we believe true transformation happens when expertise, cultural understanding, and technology come together to move business forward.",
+    "paragraph3": "Verkotech simplifies complexity. With deep industry knowledge, bilingual consultants, and a cross-border delivery model, we turn challenges into strategic advantages.",
+    "signature": "— The Verkotech Team",
+    "readyTitle": "Ready to move forward?",
+    "readyDescription": "Reach out and discover how Verkotech can support your SAP journey.",
+    "getInTouch": "GET IN TOUCH"
+  },
+  "ServicesPage": {
+    "contactTitle": "Want to learn more?",
+    "contactSubtitle": "Get in touch!",
+    "contactDescription": "Fill out the form and one of our specialists will contact you shortly.",
+    "form": {
+      "fullName": "Full name",
+      "company": "Company (optional)",
+      "email": "Email",
+      "message": "Message / How can we help?",
+      "sendMessage": "Send message",
+      "successMessage": "Message sent successfully! We'll get back to you soon.",
+      "errorMessage": "Failed to send message. Please try again."
+    },
+    "services": {
+      "sap-transformation": {
+        "mainTitle": "SAP Transformation (CDC - S/4HANA & rollouts)",
+        "mainDescription": "Full lifecycle rollout, greenfield/brownfield, regional and global rollout. Whether you're transitioning from SAP ECC to S/4HANA or launching a global rollout, Verkotech leads your transformation with technical precision and business insight.",
+        "approachTitle": "Our Approach",
+        "approachItems": [
+          "Assessment & Roadmapping: We begin with a clear fit-gap and readiness assessment to define the optimal path—greenfield, brownfield, or selective data transition",
+          "Agile Project Delivery: Leverage Activate methodology with agile sprints and real-time collaboration",
+          "Global Rollout Experience: Localization, legal compliance, and template governance across multi-country deployments",
+          "Change Management: Comprehensive training and adoption strategies to ensure smooth transitions"
+        ],
+        "expertiseTitle": "Our Expertise",
+        "expertiseItems": [
+          "Decades of experience in regulated industries (e.g., Chemicals, Oil & Gas, Manufacturing)",
+          "Certified SAP consultants with global rollout background",
+          "Specialized in multi-entity architecture, tax compliance, and intercompany flows",
+          "Deep understanding of S/4HANA migration complexities and best practices"
+        ],
+        "elevateTitle": "Let's elevate your business together!"
+      },
+      "global-trade": {
+        "mainTitle": "OneSource Global Trade",
+        "mainDescription": "Implementing and Support the Global Trade for Americas. Navigate complex international trade compliance with our specialized OneSource Global Trade implementation and optimization services across the Americas.",
+        "approachTitle": "Our Implementation Strategy",
+        "approachItems": [
+          "Trade Compliance Assessment: Comprehensive analysis of your current trade processes and regulatory requirements",
+          "System Configuration: Tailored setup of OneSource Global Trade modules for your specific trade scenarios",
+          "Integration Excellence: Seamless integration with existing ERP systems and customs processes",
+          "Ongoing Support: Continuous monitoring and updates to ensure compliance with changing regulations"
+        ],
+        "expertiseTitle": "Our Global Trade Expertise",
+        "expertiseItems": [
+          "Certified OneSource Global Trade consultants with deep regulatory knowledge",
+          "Experience in cross-border trade management and customs compliance",
+          "Expertise in import/export documentation, duty optimization, and trade finance",
+          "Specialized knowledge of Americas trade corridors and regulations"
+        ],
+        "elevateTitle": "Let's elevate your strategies together!"
+      },
+      "tax-compliance": {
+        "mainTitle": "Brazil-USA Tax Compliance",
+        "mainDescription": "Brazil fiscal module, and crossborder processes. Specialized solutions for navigating the complex tax landscape between Brazil and the USA, ensuring full compliance with both jurisdictions.",
+        "approachTitle": "Our Tax Compliance Methodology",
+        "approachItems": [
+          "Dual Jurisdiction Analysis: Comprehensive review of tax obligations in both Brazil and USA",
+          "Process Optimization: Streamlined workflows for cross-border tax reporting and compliance",
+          "System Integration: Seamless connection between Brazilian fiscal systems and US tax processes",
+          "Regulatory Updates: Continuous monitoring and implementation of changing tax regulations"
+        ],
+        "expertiseTitle": "Cross-Border Tax Expertise",
+        "expertiseItems": [
+          "Deep knowledge of Brazilian fiscal requirements (NFe, SPED, REINF, etc.)",
+          "Expertise in US tax compliance and reporting standards",
+          "Experience with transfer pricing and intercompany transactions",
+          "Specialized in VAT, income tax, and customs duty optimization across both countries"
+        ],
+        "elevateTitle": "Let's transform your business vision together!"
+      },
+      "nearshore-support": {
+        "mainTitle": "Nearshore AMS & Support",
+        "mainDescription": "English/Portuguese support model, cost-efficient coverage for US and Latin American customers. Comprehensive Application Management Services with bilingual expertise to bridge the gap between North and South America.",
+        "approachTitle": "Our Support Framework",
+        "approachItems": [
+          "Bilingual Excellence: Native English and Portuguese speakers providing seamless communication",
+          "Time Zone Advantage: Strategic coverage aligning with both US and Latin American business hours",
+          "Cultural Bridge: Deep understanding of both North American and Latin American business practices",
+          "Scalable Solutions: Flexible support models that grow with your business needs"
+        ],
+        "expertiseTitle": "Nearshore Support Capabilities",
+        "expertiseItems": [
+          "Certified professionals with extensive SAP and enterprise system experience",
+          "Proven track record in supporting Fortune 500 companies across the Americas",
+          "Expertise in incident management, change requests, and system optimization",
+          "Cost-effective alternative to onshore support without compromising quality"
+        ],
+        "elevateTitle": "Let's code your success story together!"
+      }
+    }
   }
 }

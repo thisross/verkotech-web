@@ -78,5 +78,159 @@
     "joinUs": "Junte-se a nós",
     "joinUsDetails": "Junte-se a nós nesta jornada empolgante rumo ao futuro digital. Na VERKOTECH, não apenas abraçamos a mudança, ",
     "getInTouch": "Entre em Contato"
+  },
+  "NewLP": {
+    "hero": {
+      "weAre": "SOMOS",
+      "verkotech": "VERKOTECH",
+      "mainTitle1": "UM CONSULTOR ESPECIALIZADO EM SAP",
+      "mainTitle2": "E SOLUÇÕES THOMPSON REUTERS",
+      "description": "Oferecemos transformação, conformidade fiscal e suporte para empresas globais que operam nos EUA, Canadá, Brasil e América Latina."
+    },
+    "whatWeDo": {
+      "title": "O QUE FAZEMOS?",
+      "description": "Nossos serviços são projetados para ajudar organizações globais a alinhar sua arquitetura SAP com requisitos locais - preenchendo lacunas regulamentares, operacionais e culturais nas Américas.",
+      "serviceTitle": "Transformações SAP (ECC - S/4HANDA & ROLLOUTS)",
+      "serviceDescription": "Nossos serviços são projetados para ajudar organizações globais a alinhar sua arquitetura SAP com requisitos locais - preenchendo lacunas regulamentares, operacionais e culturais nas Américas."
+    },
+    "aboutUs": {
+      "title": "SOBRE NÓS",
+      "mainHeading1": "Transformamos a complexidade do SAP",
+      "mainHeading2": "em clareza de negócios",
+      "description1": "A Verkotech é uma empresa de consultoria SAP especializada, dedicada a ajudar empresas norte-americanas a prosperar com SAP nas Américas.",
+      "description2": "Da estratégia à execução, trazemos estrutura, precisão e conhecimento profundo da indústria - especialmente para ambientes altamente regulamentados.",
+      "getInTouch": "Entre em contato"
+    },
+    "whyChooseUs": {
+      "title": "POR QUE NOS ESCOLHER?",
+      "description": "Não apenas fornecemos soluções; cultivamos parcerias duradouras baseadas em confiança, desempenho e pensamento inovador. Porque inovação e confiabilidade não são apenas palavras – elas são nosso compromisso com você.",
+      "advantageTitle": "VANTAGEM",
+      "benefitsTitle": "BENEFÍCIOS",
+      "advantages": {
+        "chemical": "Focado na indústria química",
+        "ecss": "ECSS S / 4 HANA",
+        "bilingual": "EQUIPE BILÍNGUE NEARSHORE",
+        "ontime": "NO PRAZO, NO ORÇAMENTO"
+      },
+      "benefits": {
+        "regulatory": "Conhecemos suas complexidades regulamentares, de segurança e receitas",
+        "digital": "Atualização completa do núcleo digital com conformidade comercial",
+        "risk": "Menor risco, suporte escalável com fluência em idiomas",
+        "delivery": "Entrega confiável, custos excedentes minimizados"
+      },
+      "commitmentBanner1": "PORQUE INOVAÇÃO, CONFIABILIDADE E",
+      "commitmentBanner2": "DEDICAÇÃO NÃO SÃO APENAS PALAVRAS.",
+      "commitmentBanner3": "ELAS SÃO NOSSO COMPROMISSO COM VOCÊ"
+    },
+    "letsBuild": {
+      "mainHeading1": "Vamos construir soluções",
+      "mainHeading2": "mais inteligentes, ",
+      "mainHeading3": "juntos.",
+      "description1": "A Verkotech simplifica a complexidade. Com conhecimento profundo da indústria, consultores bilíngues e um modelo de entrega transfronteiriço, transformamos desafios em vantagens estratégicas.",
+      "description2": "Pronto para seguir em frente? Vamos conversar e explorar como a Verkotech pode impulsionar sua jornada SAP – da estratégia à execução. Compartilhe seus objetivos conosco. Vamos transformá-los em resultados reais e mensuráveis.",
+      "getInTouch": "Entre em contato"
+    }
+  },
+  "AboutUsPage": {
+    "title": "SOBRE NÓS",
+    "paragraph1": "A Verkotech é uma empresa de consultoria especializada em SAP e Thomson Reuters dedicada a ajudar empresas norte-americanas a prosperar com soluções nas Américas. Com profunda experiência na indústria química e uma equipe bilíngue altamente qualificada fluente em português e inglês, fornecemos suporte estratégico para iniciativas complexas transfronteiriças — desde transformações S/4HANA até conformidade fiscal e comercial.",
+    "paragraph2": "Nosso compromisso é entregar soluções SAP personalizadas, eficientes e preparadas para o futuro que conectam negócios e tecnologia entre regiões. Na Verkotech, acreditamos que a verdadeira transformação acontece quando experiência, compreensão cultural e tecnologia se unem para mover os negócios adiante.",
+    "paragraph3": "A Verkotech simplifica a complexidade. Com conhecimento profundo da indústria, consultores bilíngues e um modelo de entrega transfronteiriço, transformamos desafios em vantagens estratégicas.",
+    "signature": "— A Equipe Verkotech",
+    "readyTitle": "Pronto para seguir em frente?",
+    "readyDescription": "Entre em contato e descubra como a Verkotech pode apoiar sua jornada SAP.",
+    "getInTouch": "ENTRE EM CONTATO"
+  },
+  "ServicesPage": {
+    "contactTitle": "Quer saber mais?",
+    "contactSubtitle": "Entre em contato!",
+    "contactDescription": "Preencha o formulário e um de nossos especialistas entrará em contato em breve.",
+    "form": {
+      "fullName": "Nome completo",
+      "company": "Empresa (opcional)",
+      "email": "Email",
+      "message": "Mensagem / Como podemos ajudar?",
+      "sendMessage": "Enviar mensagem",
+      "successMessage": "Mensagem enviada com sucesso! Entraremos em contato em breve.",
+      "errorMessage": "Falha ao enviar mensagem. Tente novamente."
+    },
+    "services": {
+      "sap-transformation": {
+        "mainTitle": "Transformação SAP (CDC - S/4HANA & rollouts)",
+        "mainDescription": "Rollout de ciclo completo, greenfield/brownfield, rollout regional e global. Seja você transitando do SAP ECC para S/4HANA ou lançando um rollout global, a Verkotech lidera sua transformação com precisão técnica e insights de negócios.",
+        "approachTitle": "Nossa Abordagem",
+        "approachItems": [
+          "Avaliação e Roadmapping: Começamos com uma avaliação clara de fit-gap e prontidão para definir o caminho ideal—greenfield, brownfield ou transição seletiva de dados",
+          "Entrega Ágil de Projetos: Aproveite a metodologia Activate com sprints ágeis e colaboração em tempo real",
+          "Experiência em Rollout Global: Localização, conformidade legal e governança de template em implementações multi-países",
+          "Gestão de Mudanças: Estratégias abrangentes de treinamento e adoção para garantir transições suaves"
+        ],
+        "expertiseTitle": "Nossa Expertise",
+        "expertiseItems": [
+          "Décadas de experiência em indústrias regulamentadas (ex.: Químicos, Petróleo e Gás, Manufatura)",
+          "Consultores SAP certificados com experiência em rollout global",
+          "Especializados em arquitetura multi-entidades, conformidade fiscal e fluxos intercompanhias",
+          "Compreensão profunda das complexidades de migração S/4HANA e melhores práticas"
+        ],
+        "elevateTitle": "Vamos elevar seu negócio juntos!"
+      },
+      "global-trade": {
+        "mainTitle": "OneSource Global Trade",
+        "mainDescription": "Implementação e Suporte de Global Trade para as Américas. Navegue pela complexa conformidade de comércio internacional com nossos serviços especializados de implementação e otimização OneSource Global Trade nas Américas.",
+        "approachTitle": "Nossa Estratégia de Implementação",
+        "approachItems": [
+          "Avaliação de Conformidade Comercial: Análise abrangente dos seus processos comerciais atuais e requisitos regulamentares",
+          "Configuração do Sistema: Configuração personalizada dos módulos OneSource Global Trade para seus cenários comerciais específicos",
+          "Excelência em Integração: Integração perfeita com sistemas ERP existentes e processos aduaneiros",
+          "Suporte Contínuo: Monitoramento contínuo e atualizações para garantir conformidade com regulamentações em mudança"
+        ],
+        "expertiseTitle": "Nossa Expertise em Global Trade",
+        "expertiseItems": [
+          "Consultores OneSource Global Trade certificados com conhecimento regulatório profundo",
+          "Experiência em gestão de comércio transfronteiriço e conformidade aduaneira",
+          "Expertise em documentação de importação/exportação, otimização de tarifas e financiamento comercial",
+          "Conhecimento especializado dos corredores comerciais e regulamentações das Américas"
+        ],
+        "elevateTitle": "Vamos elevar suas estratégias juntos!"
+      },
+      "tax-compliance": {
+        "mainTitle": "Conformidade Fiscal Brasil-EUA",
+        "mainDescription": "Módulo fiscal brasileiro e processos transfronteiriços. Soluções especializadas para navegar no complexo cenário fiscal entre Brasil e EUA, garantindo total conformidade com ambas as jurisdições.",
+        "approachTitle": "Nossa Metodologia de Conformidade Fiscal",
+        "approachItems": [
+          "Análise de Dupla Jurisdição: Revisão abrangente das obrigações fiscais no Brasil e EUA",
+          "Otimização de Processos: Fluxos de trabalho simplificados para relatórios fiscais transfronteiriços e conformidade",
+          "Integração de Sistemas: Conexão perfeita entre sistemas fiscais brasileiros e processos fiscais americanos",
+          "Atualizações Regulamentares: Monitoramento contínuo e implementação de mudanças nas regulamentações fiscais"
+        ],
+        "expertiseTitle": "Expertise Fiscal Transfronteiriça",
+        "expertiseItems": [
+          "Conhecimento profundo dos requisitos fiscais brasileiros (NFe, SPED, REINF, etc.)",
+          "Expertise em conformidade fiscal e padrões de relatórios dos EUA",
+          "Experiência com preços de transferência e transações intercompanhias",
+          "Especialização em IVA, imposto de renda e otimização de direitos aduaneiros em ambos os países"
+        ],
+        "elevateTitle": "Vamos transformar a visão do seu negócio juntos!"
+      },
+      "nearshore-support": {
+        "mainTitle": "AMS & Suporte Nearshore",
+        "mainDescription": "Modelo de suporte inglês/português, cobertura com custo-benefício para clientes americanos e latino-americanos. Serviços abrangentes de Gestão de Aplicações com expertise bilíngue para conectar a América do Norte e do Sul.",
+        "approachTitle": "Nossa Estrutura de Suporte",
+        "approachItems": [
+          "Excelência Bilíngue: Falantes nativos de inglês e português fornecendo comunicação perfeita",
+          "Vantagem de Fuso Horário: Cobertura estratégica alinhada com horários comerciais dos EUA e América Latina",
+          "Ponte Cultural: Compreensão profunda das práticas comerciais norte-americanas e latino-americanas",
+          "Soluções Escaláveis: Modelos de suporte flexíveis que crescem com as necessidades do seu negócio"
+        ],
+        "expertiseTitle": "Capacidades de Suporte Nearshore",
+        "expertiseItems": [
+          "Profissionais certificados com ampla experiência em SAP e sistemas empresariais",
+          "Histórico comprovado no suporte a empresas Fortune 500 nas Américas",
+          "Expertise em gestão de incidentes, solicitações de mudança e otimização de sistemas",
+          "Alternativa custo-efetiva ao suporte onshore sem comprometer a qualidade"
+        ],
+        "elevateTitle": "Vamos programar sua história de sucesso juntos!"
+      }
+    }
   }
 }

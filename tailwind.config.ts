@@ -16,6 +16,16 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        'canter': ['Canter', 'sans-serif'],
+        'canter-3d': ['Canter Bold 3D', 'sans-serif'],
+        'canter-shadow': ['Canter Bold Shadow', 'sans-serif'],
+        'canter-strips': ['Canter Bold Strips', 'sans-serif'],
+        'glacial': ['Glacial Indifference', 'sans-serif'],
+        'impact': ['Impact', 'sans-serif'],
+        'impacted': ['Impacted', 'sans-serif'],
+        'unicode-impact': ['Unicode Impact', 'sans-serif'],
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',

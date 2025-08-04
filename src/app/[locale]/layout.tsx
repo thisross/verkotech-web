@@ -4,7 +4,8 @@ import '../globals.css'
 import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
 import { notFound } from 'next/navigation'
-import { useTranslations } from 'next-intl'
+import { NextIntlClientProvider } from 'next-intl'
+import { getMessages } from 'next-intl/server'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
 
 const locales = ['en', 'pt']
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params: { locale },
 }: {
@@ -26,12 +27,18 @@ export default function LocaleLayout({
 }) {
   if (!locales.includes(locale)) notFound()
 
+  // Providing all messages to the client
+  // side is the easiest way to get started
+  const messages = await getMessages()
+
   return (
     <html lang={locale} className="antialiased">
       <body className={inter.className}>
-        <Navbar lang={locale} />
-        {children}
-        <Footer lang={locale} />
+        <NextIntlClientProvider messages={messages}>
+          <Navbar lang={locale} />
+          {children}
+          <Footer lang={locale} />
+        </NextIntlClientProvider>
       </body>
     </html>
   )

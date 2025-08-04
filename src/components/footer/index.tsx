@@ -2,6 +2,8 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Facebook, Instagram, Linkedin } from 'lucide-react'
 import { Link, usePathname, useRouter } from '../../../navigation'
+import { Button } from '../ui/button'
+import { IoLogoWhatsapp } from 'react-icons/io5'
 
 interface ILanguages {
   lang: string
@@ -32,31 +34,51 @@ export default function Footer({ lang }: ILanguages) {
   const contentToShow = lang === 'en' ? contentEn : contentPt
 
   return (
-    <footer className="relative bottom-0 left-0 z-20 mt-24 flex w-full flex-col border-t border-gray-200 bg-white p-4 shadow md:flex md:items-center md:justify-between md:p-6 dark:border-gray-600 dark:bg-gray-800">
+    <footer className="relative bottom-0 left-0 z-20 mt-24 flex w-full flex-col border-t border-zinc-100 bg-white p-4 shadow md:flex md:items-center md:justify-between md:p-6 dark:border-zinc-600 dark:bg-zinc-800">
       <div className="mx-auto w-full max-w-[1280px]">
         <div className="flex w-full flex-col justify-between  md:flex-row">
           <div>
-            <Avatar className="mb-4 h-[60px] w-[200px]">
-              <AvatarImage
-                src="/logomarca-blue.png"
-                className="object-contain"
-                alt="@shadcn"
-              />
-              <AvatarFallback>CN</AvatarFallback>
-            </Avatar>
-            <p className="hidden text-xs text-black md:block">
-              {lang === 'en'
-                ? '  Miami 201, South Biscayne Boulevard Suite #1200 Miami, FL 33131 USA Miami I Flórida | USA'
-                : 'Sao Paulo Av. Eng Luis Carlos Berrini, 1618 Unit 41R, SP, 04571-000, SP BR'}
-            </p>
+            <div className="mb-4 flex items-center gap-2">
+              <p className="text-xl font-bold text-pink-500">WE&apos;RE</p>
+              <Avatar className="h-[56px] w-[160px]">
+                <AvatarImage
+                  src="/logomarca-blue.png"
+                  className="object-contain"
+                  alt="@shadcn"
+                />
+                <AvatarFallback>CN</AvatarFallback>
+              </Avatar>
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className="hidden   text-base text-zinc-500 md:block">
+                {lang === 'en'
+                  ? '  Miami 201, South Biscayne Boulevard Suite #1200 Miami, FL 33131 USA Miami I Flórida | USA'
+                  : 'Sao Paulo Av. Eng Luis Carlos Berrini, 1618 Unit 41R, SP, 04571-000, SP BR'}
+              </p>
+              <p className="text-base text-zinc-500">
+                {lang === 'en'
+                  ? 'Call us at (555) 123-4567 for all your business inquiries!'
+                  : 'Ligue para (555) 123-4567 para todas as suas consultas comerciais!'}
+              </p>
+              <p className="mb-8 text-base text-zinc-500">
+                {lang === 'en'
+                  ? 'Reach out to us via email at contact@yourbusiness.com.'
+                  : 'Entre em contato conosco via e-mail em contact@yourbusiness.com.'}
+              </p>
+              <Link href={'https://wa.me/+13056761715'} target="_blank">
+                <Button className="gap-2 rounded-[4px] bg-green-500 text-[14px] font-semibold">
+                  <IoLogoWhatsapp size={20} /> {contentToShow.cta}
+                </Button>
+              </Link>
+            </div>
           </div>
 
-          <ul className="mt-3 flex flex-wrap items-center gap-3 text-sm font-medium text-gray-500 sm:mt-0 dark:text-gray-400">
+          <ul className="mt-3 hidden flex-wrap items-center gap-3 text-base font-medium text-zinc-500 sm:mt-0 lg:flex dark:text-zinc-400">
             {linksMapped.map((data, index) => (
               <li key={index}>
                 <Link
                   href={data.url}
-                  className=" transition-all hover:text-slate-800  "
+                  className="transition-all hover:text-slate-800  "
                 >
                   {data.title}
                 </Link>
@@ -66,20 +88,35 @@ export default function Footer({ lang }: ILanguages) {
         </div>
         <div className="my-6 h-[1px] w-full bg-slate-200"></div>
         <div className="flex w-full flex-col-reverse justify-between gap-4 md:flex-row md:gap-0 lg:items-center">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023{' '}
-            <a href="https://ederrosa.com/" className="hover:underline">
-              Eder Rosa
-            </a>
-            . All Rights Reserved.
-          </span>
+          <div className="flex flex-col gap-2">
+            <span className="text-sm uppercase text-zinc-500 dark:text-zinc-400">
+              {/* <a
+                href="https://ederrosa.com/"
+                target="_blank"
+                className="hover:underline"
+              > */}
+              © 2025 Verkotech. All rights reserved
+              {/* </a> */}
+            </span>
+            <span className="text-xs uppercase text-zinc-500  dark:text-zinc-400">
+              made by{' '}
+              <a
+                href="https://ederrosa.com/"
+                target="_blank"
+                className="hover:underline"
+              >
+                Eder Rosa
+              </a>
+            </span>
+          </div>
+
           <p className="text-xs text-black md:hidden">
             {' '}
             {lang === 'en'
               ? '  Miami 201, South Biscayne Boulevard Suite #1200 Miami, FL 33131 USA Miami I Flórida | USA'
               : 'Sao Paulo Av. Eng Luis Carlos Berrini, 1618 Unit 41R, SP, 04571-000, SP BR'}
           </p>
-          <ul className="flex flex-wrap items-center gap-2 text-sm font-medium text-verkotech-pink sm:mt-0 dark:text-gray-400">
+          <ul className="flex flex-wrap items-center gap-2 text-sm font-medium text-verkotech-pink sm:mt-0 dark:text-zinc-400">
             <Link
               href={
                 'https://www.linkedin.com/company/verkotech/mycompany/?viewAsMember=true'
