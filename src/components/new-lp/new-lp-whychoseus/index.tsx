@@ -41,7 +41,7 @@ export default function NewLpWhyChooseUs() {
             </h3>
             <ul className="space-y-4">
               {advantages.map((advantage, index) => (
-                <li key={index} className="flex items-center">
+                <li key={index} className="flex items-center uppercase">
                   <span className="mr-3 h-1 w-1 flex-shrink-0 rounded-full bg-white"></span>
                   <span className="text-lg leading-relaxed">{advantage}</span>
                 </li>
@@ -56,7 +56,7 @@ export default function NewLpWhyChooseUs() {
             </h3>
             <ul className="space-y-4">
               {benefits.map((benefit, index) => (
-                <li key={index} className="flex items-center">
+                <li key={index} className="flex items-center uppercase">
                   <span className="mr-3 h-1 w-1 flex-shrink-0 rounded-full bg-white"></span>
                   <span className="text-lg leading-relaxed">{benefit}</span>
                 </li>

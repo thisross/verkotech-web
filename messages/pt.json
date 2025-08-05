@@ -103,7 +103,7 @@
     },
     "whyChooseUs": {
       "title": "POR QUE NOS ESCOLHER?",
-      "description": "Não apenas fornecemos soluções; cultivamos parcerias duradouras baseadas em confiança, desempenho e pensamento inovador. Porque inovação e confiabilidade não são apenas palavras – elas são nosso compromisso com você.",
+      "description": "Não apenas fornecemos soluções; cultivamos parcerias duradouras baseadas em confiança, desempenho e pensamento inovador. Na Verkotech, soluções são apenas o começo. Cultivamos parcerias duradouras guiadas por confiança, resultados e inovação ousada porque inovação e confiabilidade são compromissos que vivemos.",
       "advantageTitle": "VANTAGEM",
       "benefitsTitle": "BENEFÍCIOS",
       "advantages": {
@@ -149,6 +149,7 @@
       "fullName": "Nome completo",
       "company": "Empresa (opcional)",
       "email": "Email",
+      "telephone": "Número de telefone (opcional)",
       "message": "Mensagem / Como podemos ajudar?",
       "sendMessage": "Enviar mensagem",
       "successMessage": "Mensagem enviada com sucesso! Entraremos em contato em breve.",

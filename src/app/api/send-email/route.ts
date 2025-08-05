@@ -5,14 +5,49 @@ interface ContactFormData {
   fullName: string
   company?: string
   email: string
+  telephone?: string
   message: string
   serviceType?: string
+  locale?: string
+}
+
+const formatPhoneForDisplay = (phone: string, locale?: string) => {
+  if (!phone) return ''
+
+  if (locale === 'pt') {
+    // Brazilian format - always assume area code is 2 digits
+    if (phone.length === 11) {
+      // Mobile: (11) 99999-9999
+      return `(${phone.slice(0, 2)}) ${phone.slice(2, 7)}-${phone.slice(7)}`
+    } else if (phone.length === 10) {
+      // Landline: (11) 9999-9999
+      return `(${phone.slice(0, 2)}) ${phone.slice(2, 6)}-${phone.slice(6)}`
+    }
+  } else {
+    // US/Canada format
+    if (phone.length === 10) {
+      return `(${phone.slice(0, 3)}) ${phone.slice(3, 6)}-${phone.slice(6)}`
+    } else if (phone.length === 11 && phone.startsWith('1')) {
+      return `+1 (${phone.slice(1, 4)}) ${phone.slice(4, 7)}-${phone.slice(7)}`
+    }
+  }
+
+  // For other lengths, return as is
+  return phone
 }
 
 export async function POST(request: NextRequest) {
   try {
     const body: ContactFormData = await request.json()
-    const { fullName, company, email, message, serviceType } = body
+    const {
+      fullName,
+      company,
+      email,
+      telephone,
+      message,
+      serviceType,
+      locale,
+    } = body
 
     // Validate required fields
     if (!fullName || !email || !message) {
@@ -40,6 +75,14 @@ export async function POST(request: NextRequest) {
           <h3 style="color: #374151; margin-top: 0;">Contact Details</h3>
           <p><strong>Name:</strong> ${fullName}</p>
           <p><strong>Email:</strong> ${email}</p>
+          ${
+            telephone
+              ? `<p><strong>Phone:</strong> ${formatPhoneForDisplay(
+                  telephone,
+                  locale,
+                )}</p>`
+              : ''
+          }
           ${company ? `<p><strong>Company:</strong> ${company}</p>` : ''}
           ${
             serviceType

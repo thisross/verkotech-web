@@ -105,7 +105,7 @@
     },
     "whyChooseUs": {
       "title": "WHY CHOOSE US?",
-      "description": "We don't just provide solutions; we cultivate enduring partnerships based on trust, performance, and innovative thinking. Because innovation and reliability aren't just words – they're our commitment to you.",
+      "description": "We don't just provide solutions; we cultivate enduring partnerships based on trust, performance, and innovative thinking. At Verkotech, solutions are just the beginning. We cultivate enduring partnerships driven by trust, results, and bold innovation because innovation and reliability are commitments we live by.",
       "advantageTitle": "ADVANTAGE",
       "benefitsTitle": "BENEFITS",
       "advantages": {
@@ -151,6 +151,7 @@
       "fullName": "Full name",
       "company": "Company (optional)",
       "email": "Email",
+      "telephone": "Phone number (optional)",
       "message": "Message / How can we help?",
       "sendMessage": "Send message",
       "successMessage": "Message sent successfully! We'll get back to you soon.",

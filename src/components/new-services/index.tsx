@@ -2,7 +2,7 @@
 
 import { Button } from '@/components/ui/button'
 import { ArrowUpRight } from 'lucide-react'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 import Image from 'next/image'
 import { useSearchParams } from 'next/navigation'
 import { useState, useEffect } from 'react'
@@ -20,6 +20,7 @@ interface ServiceContent {
 
 export default function NewServices() {
   const t = useTranslations('ServicesPage')
+  const locale = useLocale()
   const searchParams = useSearchParams()
   const serviceType = searchParams.get('service') || 'sap-transformation'
   const scrollToForm = searchParams.get('scrollToForm')
@@ -28,6 +29,7 @@ export default function NewServices() {
     fullName: '',
     company: '',
     email: '',
+    telephone: '',
     message: '',
   })
 
@@ -80,14 +82,69 @@ export default function NewServices() {
     elevateTitle: t(`services.${validServiceType}.elevateTitle`),
   }
 
+  const formatPhoneNumber = (value: string) => {
+    // Remove all non-numeric characters
+    const phoneNumber = value.replace(/[^\d]/g, '')
+
+    if (locale === 'pt') {
+      // Brazilian format: (11) 99999-9999
+      if (phoneNumber.length <= 2) {
+        return phoneNumber
+      } else if (phoneNumber.length <= 3) {
+        return `(${phoneNumber.slice(0, 2)}) ${phoneNumber.slice(2)}`
+      } else if (phoneNumber.length <= 7) {
+        return `(${phoneNumber.slice(0, 2)}) ${phoneNumber.slice(2)}`
+      } else if (phoneNumber.length <= 11) {
+        return `(${phoneNumber.slice(0, 2)}) ${phoneNumber.slice(
+          2,
+          7,
+        )}-${phoneNumber.slice(7)}`
+      } else {
+        // Limit to 11 digits for Brazil
+        return `(${phoneNumber.slice(0, 2)}) ${phoneNumber.slice(
+          2,
+          7,
+        )}-${phoneNumber.slice(7, 11)}`
+      }
+    } else {
+      // US/Canada format: (555) 123-4567
+      if (phoneNumber.length <= 3) {
+        return phoneNumber
+      } else if (phoneNumber.length <= 6) {
+        return `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(3)}`
+      } else if (phoneNumber.length <= 10) {
+        return `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(
+          3,
+          6,
+        )}-${phoneNumber.slice(6)}`
+      } else {
+        // For international numbers, keep first 11 digits
+        return `+${phoneNumber.slice(0, 1)} (${phoneNumber.slice(
+          1,
+          4,
+        )}) ${phoneNumber.slice(4, 7)}-${phoneNumber.slice(7, 11)}`
+      }
+    }
+  }
+
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }))
+
+    if (name === 'telephone') {
+      // Format phone number as user types
+      const formattedValue = formatPhoneNumber(value)
+      setFormData((prev) => ({
+        ...prev,
+        [name]: formattedValue,
+      }))
+    } else {
+      setFormData((prev) => ({
+        ...prev,
+        [name]: value,
+      }))
+    }
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -96,6 +153,8 @@ export default function NewServices() {
     setSubmitStatus({ type: null, message: '' })
 
     try {
+      // Clean phone number for API (remove formatting)
+      const cleanedTelephone = formData.telephone.replace(/[^\d]/g, '')
       const response = await fetch('/api/send-email', {
         method: 'POST',
         headers: {
@@ -103,7 +162,9 @@ export default function NewServices() {
         },
         body: JSON.stringify({
           ...formData,
+          telephone: cleanedTelephone,
           serviceType: validServiceType,
+          locale,
         }),
       })
 
@@ -117,6 +178,7 @@ export default function NewServices() {
           fullName: '',
           company: '',
           email: '',
+          telephone: '',
           message: '',
         })
       } else {
@@ -315,6 +377,23 @@ export default function NewServices() {
                     value={formData.email}
                     onChange={handleInputChange}
                     required
+                    className="w-full rounded-[6px] border border-zinc-300 px-4 py-3 text-black placeholder-zinc-500 shadow focus:border-cyan-400 focus:outline-none focus:ring-1 focus:ring-cyan-400"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="tel"
+                    name="telephone"
+                    placeholder={
+                      locale === 'pt'
+                        ? `${t('form.telephone')} - ex: (11) 99999-9999`
+                        : `${t('form.telephone')} - e.g., (555) 123-4567`
+                    }
+                    value={formData.telephone}
+                    onChange={handleInputChange}
+                    maxLength={locale === 'pt' ? 15 : 18}
+                    autoComplete="tel"
+                    inputMode="tel"
                     className="w-full rounded-[6px] border border-zinc-300 px-4 py-3 text-black placeholder-zinc-500 shadow focus:border-cyan-400 focus:outline-none focus:ring-1 focus:ring-cyan-400"
                   />
                 </div>
