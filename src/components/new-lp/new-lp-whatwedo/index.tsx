@@ -62,13 +62,13 @@ export default function NewLpWhatWeDo({
             <div
               key={index}
               onClick={() => handleServiceClick(service.key)}
-              className="flex min-h-[272px] cursor-pointer items-center border-l-4 border-cyan-400 bg-zinc-100 p-6 transition-all duration-200 hover:bg-zinc-200 hover:shadow-md"
+              className="flex min-h-[272px] cursor-pointer  items-center border-l-4 border-cyan-400 bg-zinc-100 p-6 transition-all duration-200 hover:bg-zinc-200 hover:shadow-md"
             >
-              <div className="flex w-full items-center justify-between">
-                <h3 className="max-w-[400px] text-xl font-semibold text-black lg:text-3xl">
+              <div className="flex w-full flex-col justify-between gap-4 lg:flex-row lg:items-center">
+                <h3 className="max-w-[300px] text-xl font-semibold text-black lg:max-w-[400px] lg:text-3xl">
                   {service.title}
                 </h3>
-                <p className="max-w-[472px] self-end leading-relaxed text-zinc-500 lg:text-xl">
+                <p className="max-w-[472px] leading-relaxed text-zinc-500 lg:self-end lg:text-xl">
                   {service.description}
                 </p>
               </div>
