@@ -50,7 +50,7 @@ export default function NewLpHero() {
         </h2>
 
         {/* Description */}
-        <p className="mx-auto max-w-[300px] font-glacial text-base font-medium leading-relaxed opacity-90 md:text-xl lg:max-w-[500px] lg:text-2xl">
+        <p className="mx-auto max-w-[300px] font-glacial text-base font-medium leading-relaxed opacity-90 md:max-w-[500px] md:text-xl lg:text-2xl">
           {t('description')}
         </p>
       </div>
