@@ -28,7 +28,7 @@ export default function NewLpHero() {
           <h3 className="font-canter text-4xl font-bold md:text-8xl">
             {t('weAre')}
           </h3>
-          <div className="relative h-20 w-20 -translate-y-1 lg:h-32 lg:w-32">
+          <div className="relative h-16 w-16 -translate-y-1 lg:h-32 lg:w-32">
             <Image
               src="/brainn.svg"
               alt="Brain Icon"
@@ -36,7 +36,7 @@ export default function NewLpHero() {
               className="text-cyan-400"
             />
           </div>
-          <h3 className="-translate-y-3 font-glacial text-4xl font-bold md:text-8xl">
+          <h3 className="-translate-y-1.5 font-glacial text-4xl font-bold md:text-8xl lg:-translate-y-3">
             {t('verkotech')}
           </h3>
         </div>
