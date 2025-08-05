@@ -42,7 +42,8 @@ export default function NewLpAboutUs() {
               onClick={handleGetInTouch}
               className="flex h-12 min-w-[216px] items-center gap-2 rounded-[6px] bg-pink-200 text-lg font-semibold text-pink-500 transition-colors hover:bg-pink-300"
             >
-              {t('description3')}
+              <span className="hidden lg:block"> {t('description3')}</span>
+              <span className="block lg:hidden"> {t('getInTouch')}</span>
               <Forward size={20} />
             </Button>
           </div>
