@@ -57,13 +57,13 @@ export default function Footer({ lang }: ILanguages) {
               </p>
               <p className="text-base text-zinc-500">
                 {lang === 'en'
-                  ? 'Call us at (555) 123-4567 for all your business inquiries!'
-                  : 'Ligue para (555) 123-4567 para todas as suas consultas comerciais!'}
+                  ? 'Call us at +1(305)676-1715 🇺🇸 or +55(11)97105-1809 🇧🇷 for all your business inquiries!'
+                  : 'Ligue para +1(305)676-1715 🇺🇸 ou +55(11)97105-1809 🇧🇷 para todas as suas consultas comerciais!'}
               </p>
               <p className="mb-8 text-base text-zinc-500">
                 {lang === 'en'
-                  ? 'Reach out to us via email at contact@yourbusiness.com.'
-                  : 'Entre em contato conosco via e-mail em contact@yourbusiness.com.'}
+                  ? 'Reach out to us via email at info@verkotech.com.'
+                  : 'Entre em contato conosco via e-mail em info@verkotech.com.'}
               </p>
               <Link href={'https://wa.me/+13056761715'} target="_blank">
                 <Button className="gap-2 rounded-[4px] bg-green-500 text-[14px] font-semibold">

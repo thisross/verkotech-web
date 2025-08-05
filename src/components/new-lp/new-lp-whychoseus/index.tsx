@@ -21,9 +21,9 @@ export default function NewLpWhyChooseUs() {
 
   return (
     <section className="w-full bg-[#172D5C] pt-24 text-white">
-      <div className="mx-auto mb-20 max-w-5xl">
+      <div className="mx-auto mb-20 max-w-5xl px-6 xl:px-0">
         {/* Title */}
-        <h2 className="font-impact mb-8 text-4xl font-bold md:text-5xl lg:text-6xl">
+        <h2 className="mb-8 font-impact text-4xl font-bold md:text-5xl lg:text-6xl">
           {t('title')}
         </h2>
 
@@ -76,7 +76,7 @@ export default function NewLpWhyChooseUs() {
       >
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative px-8 py-16 text-center">
-          <h3 className="font-impact mx-auto max-w-4xl text-2xl font-bold leading-10 tracking-normal text-white md:text-4xl lg:text-5xl">
+          <h3 className="mx-auto max-w-4xl font-impact text-2xl font-bold leading-10 tracking-normal text-white md:text-4xl lg:text-5xl">
             {t('commitmentBanner1')}
             <br />
             {t('commitmentBanner2')}

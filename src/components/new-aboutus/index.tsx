@@ -3,20 +3,22 @@
 import { Button } from '@/components/ui/button'
 import { Forward } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import { useRouter } from '../../../navigation'
 
 export default function NewAboutUs() {
   const t = useTranslations('AboutUsPage')
   const t2 = useTranslations('NewLP.aboutUs')
+  const router = useRouter()
 
   const handleGetInTouch = () => {
-    window.open('https://wa.me/+13056761715', '_blank')
+    router.push('/services?scrollToForm=true')
   }
 
   return (
     <section className="w-full bg-white px-4 py-16">
       <div className="mx-auto max-w-4xl">
         {/* Title */}
-        <h1 className="font-impact mb-12 text-left text-4xl font-bold tracking-tight text-black md:text-5xl">
+        <h1 className="mb-12 text-left font-impact text-4xl font-bold tracking-tight text-black md:text-5xl">
           {t('title')}
         </h1>
 

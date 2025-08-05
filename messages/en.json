@@ -84,7 +84,7 @@
     "hero": {
       "weAre": "WE'RE",
       "verkotech": "VERKOTECH",
-      "mainTitle1": "A CONSULTANT ESPECIALIZED IN SAP",
+      "mainTitle1": "A CONSULTANCY SPECIALIZED IN SAP",
       "mainTitle2": "AND THOMSON REUTERS SOLUTIONS",
       "description": "We deliver transformation, tax compliance and support for global companies operating across the US, Canada, Brazil, and Latin America."
     },
@@ -109,9 +109,9 @@
       "benefitsTitle": "BENEFITS",
       "advantages": {
         "chemical": "Chemical industry focused",
-        "ecss": "ECSS S / 4 HANA",
+        "ecss": "S/4HANA",
         "bilingual": "BILINGUAL NEARSHORE TEAM",
-        "ontime": "ONTIME, ONBUDGET"
+        "ontime": "ON TIME, ON BUDGET"
       },
       "benefits": {
         "regulatory": "We know your regulatory, safety & recipe complexities",
@@ -135,7 +135,7 @@
   "AboutUsPage": {
     "title": "ABOUT US",
     "paragraph1": "Verkotech is a specialized SAP and Thomson Reuters consulting firm dedicated to helping North American companies thrive with solutions across the Americas. With deep expertise in the chemical industry and a highly skilled bilingual team fluent in Portuguese and English, we provide strategic support for complex cross-border initiatives — from S/4HANA transformations to tax and trade compliance.",
-    "paragraph2": "Our commitment is to deliver tailored, efficient, and future-ready SAP solutions that bridge business and technology across regions. At Verkotech, we believe true transformation happens when expertise, cultural understanding, and technology come together to move business forward.",
+    "paragraph2": "Our commitment is to deliver tailored, efficient, and future-ready SAP solutions that connect business and technology across regions. At Verkotech, we believe transformation happens when expertise, cultural understanding, and technology unite to drive business forward.",
     "paragraph3": "Verkotech simplifies complexity. With deep industry knowledge, bilingual consultants, and a cross-border delivery model, we turn challenges into strategic advantages.",
     "signature": "— The Verkotech Team",
     "readyTitle": "Ready to move forward?",
@@ -157,7 +157,7 @@
     },
     "services": {
       "sap-transformation": {
-        "mainTitle": "SAP Transformation (CDC - S/4HANA & rollouts)",
+        "mainTitle": "SAP Transformation (ECC - S/4HANA & rollouts)",
         "mainDescription": "Full lifecycle rollout, greenfield/brownfield, regional and global rollout. Whether you're transitioning from SAP ECC to S/4HANA or launching a global rollout, Verkotech leads your transformation with technical precision and business insight.",
         "approachTitle": "Our Approach",
         "approachItems": [

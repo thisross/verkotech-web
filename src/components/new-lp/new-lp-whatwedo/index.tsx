@@ -2,15 +2,20 @@
 
 import { useTranslations } from 'next-intl'
 import { useRouter } from '../../../../navigation'
+import { cn } from '@/lib/utils'
 
-export default function NewLpWhatWeDo() {
+export default function NewLpWhatWeDo({
+  maxWidth = 'max-w-5xl',
+}: {
+  maxWidth?: string
+}) {
   const t = useTranslations('NewLP.whatWeDo')
   const router = useRouter()
 
   const services = [
     {
       key: 'sap-transformation',
-      title: 'SAP Transformation (CDC - S/4HANA & rollouts):',
+      title: 'SAP Transformation (ECC - S/4HANA & rollouts):',
       description:
         "Full lifecycle rollout, greenfield/brownfield, regional and global rollout. Let's elevate your business together!",
     },
@@ -40,14 +45,14 @@ export default function NewLpWhatWeDo() {
 
   return (
     <section className="w-full bg-white px-4 py-16">
-      <div className="mx-auto max-w-5xl">
+      <div className={cn('mx-auto', maxWidth)}>
         {/* Title */}
-        <h2 className="font-impact mb-8 text-center text-4xl font-bold tracking-tight text-black md:text-6xl">
+        <h2 className="mb-8 text-center font-impact text-4xl font-bold tracking-tight text-black md:text-6xl">
           {t('title')}
         </h2>
 
         {/* Subtitle */}
-        <p className="font-glacial mx-auto mb-12  max-w-3xl text-center text-lg leading-relaxed text-zinc-500 lg:text-2xl">
+        <p className="mx-auto mb-12 max-w-3xl  text-center font-glacial text-lg leading-relaxed text-zinc-500 lg:text-2xl">
           {t('description')}
         </p>
 

@@ -5,7 +5,8 @@ import { ArrowUpRight } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { useSearchParams } from 'next/navigation'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import NewLpWhatWeDo from '../new-lp/new-lp-whatwedo'
 
 interface ServiceContent {
   mainTitle: string
@@ -21,6 +22,7 @@ export default function NewServices() {
   const t = useTranslations('ServicesPage')
   const searchParams = useSearchParams()
   const serviceType = searchParams.get('service') || 'sap-transformation'
+  const scrollToForm = searchParams.get('scrollToForm')
 
   const [formData, setFormData] = useState({
     fullName: '',
@@ -34,6 +36,21 @@ export default function NewServices() {
     type: 'success' | 'error' | null
     message: string
   }>({ type: null, message: '' })
+
+  // Scroll to form if parameter is present
+  useEffect(() => {
+    if (scrollToForm === 'true') {
+      setTimeout(() => {
+        const formElement = document.getElementById('contact-form')
+        if (formElement) {
+          formElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+          })
+        }
+      }, 100)
+    }
+  }, [scrollToForm])
 
   // Available service types
   const availableServices = [
@@ -139,23 +156,29 @@ export default function NewServices() {
 
           {/* Main Heading */}
           <h2 className="mb-0 text-3xl font-bold uppercase leading-tight md:text-4xl lg:text-5xl">
-            {currentService.mainTitle}
+            {searchParams.get('service')
+              ? currentService.mainTitle
+              : 'Services'}
           </h2>
         </div>
       </section>
+
+      {!searchParams.get('service') && <NewLpWhatWeDo maxWidth="max-w-6xl" />}
 
       {/* Service Info */}
       <section className="w-full bg-white px-4 py-16">
         <div className="mx-auto max-w-6xl">
           {/* Main Title & Description */}
-          <div className="mb-16">
-            <h1 className="mb-8 text-2xl font-bold text-black md:text-3xl">
-              {currentService.mainTitle}
-            </h1>
-            <p className="text-lg leading-relaxed text-zinc-600 md:text-xl">
-              {currentService.mainDescription}
-            </p>
-          </div>
+          {searchParams.get('service') && (
+            <div className="mb-16">
+              <h1 className="mb-8 text-2xl font-bold text-black md:text-3xl">
+                {currentService.mainTitle}
+              </h1>
+              <p className="text-lg leading-relaxed text-zinc-600 md:text-xl">
+                {currentService.mainDescription}
+              </p>
+            </div>
+          )}
 
           {/* Service Navigation */}
           {/* <div className="mb-16">
@@ -184,48 +207,54 @@ export default function NewServices() {
           </div> */}
 
           {/* Dynamic Approach Section */}
-          <div className="mb-16">
-            <h2 className="mb-8 text-2xl font-bold text-black md:text-3xl">
-              {currentService.approachTitle}
-            </h2>
-            <div className="space-y-4">
-              {currentService.approachItems.map((item, index) => (
-                <div key={index} className="flex items-center">
-                  <span className="mr-3 mt-2 h-1 w-1 flex-shrink-0 rounded-full bg-black"></span>
-                  <p className="text-lg leading-relaxed text-zinc-500">
-                    {item}
-                  </p>
-                </div>
-              ))}
+          {searchParams.get('service') && (
+            <div className="mb-16">
+              <h2 className="mb-8 text-2xl font-bold text-black md:text-3xl">
+                {currentService.approachTitle}
+              </h2>
+              <div className="space-y-4">
+                {currentService.approachItems.map((item, index) => (
+                  <div key={index} className="flex items-center">
+                    <span className="mr-3 mt-2 h-1 w-1 flex-shrink-0 rounded-full bg-black"></span>
+                    <p className="text-lg leading-relaxed text-zinc-500">
+                      {item}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Dynamic Expertise Section */}
-          <div className="mb-16">
-            <h2 className="mb-8 text-2xl font-bold text-black md:text-3xl">
-              {currentService.expertiseTitle}
-            </h2>
-            <div className="space-y-4">
-              {currentService.expertiseItems.map((item, index) => (
-                <div key={index} className="flex items-center">
-                  <span className="mr-3 mt-2 h-1 w-1 flex-shrink-0 rounded-full bg-black"></span>
-                  <p className="text-lg leading-relaxed text-zinc-500">
-                    {item}
-                  </p>
-                </div>
-              ))}
+          {searchParams.get('service') && (
+            <div className="mb-16">
+              <h2 className="mb-8 text-2xl font-bold text-black md:text-3xl">
+                {currentService.expertiseTitle}
+              </h2>
+              <div className="space-y-4">
+                {currentService.expertiseItems.map((item, index) => (
+                  <div key={index} className="flex items-center">
+                    <span className="mr-3 mt-2 h-1 w-1 flex-shrink-0 rounded-full bg-black"></span>
+                    <p className="text-lg leading-relaxed text-zinc-500">
+                      {item}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Dynamic Elevate Business */}
-          <div className="mb-16">
-            <h2 className="text-2xl font-bold text-black md:text-3xl">
-              {currentService.elevateTitle}
-            </h2>
-          </div>
+          {searchParams.get('service') && (
+            <div className="mb-16">
+              <h2 className="text-2xl font-bold text-black md:text-3xl">
+                {currentService.elevateTitle}
+              </h2>
+            </div>
+          )}
 
           {/* Contact Form Section */}
-          <div className="flex flex-col gap-8 lg:flex-row">
+          <div id="contact-form" className="flex flex-col gap-8 lg:flex-row">
             {/* Left Side - Contact Info */}
             <div className="flex-1">
               <h2 className="mb-2 text-3xl font-bold text-pink-500 md:text-4xl">
