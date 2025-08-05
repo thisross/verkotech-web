@@ -101,7 +101,7 @@ export default function Footer({ lang }: ILanguages) {
             <span className="text-xs uppercase text-zinc-500  dark:text-zinc-400">
               made by{' '}
               <a
-                href="https://ederrosa.com/"
+                href="https://x.com/thisross"
                 target="_blank"
                 className="hover:underline"
               >

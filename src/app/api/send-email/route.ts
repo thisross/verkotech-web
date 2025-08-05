@@ -62,7 +62,7 @@ export async function POST(request: NextRequest) {
     // Send email
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
-      to: 'arleyjuliao76@gmail.com',
+      to: 'info@verkotech.com',
       subject: `New Contact Form Submission from ${fullName}`,
       html: htmlContent,
       replyTo: email,

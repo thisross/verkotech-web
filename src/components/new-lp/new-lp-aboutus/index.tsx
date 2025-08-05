@@ -31,17 +31,18 @@ export default function NewLpAboutUs() {
 
           {/* Description */}
           <div className="mx-auto mb-8 max-w-4xl space-y-6 font-glacial text-lg leading-relaxed text-zinc-300 md:text-2xl lg:mb-20 lg:text-2xl">
-            <p>{t('description1')}</p>
-            <p>{t('description2')}</p>
+            <p>
+              {t('description1')} {t('description2')}
+            </p>
           </div>
 
           <div className="flex items-center justify-center">
             {/* Call to Action Button */}
             <Button
               onClick={handleGetInTouch}
-              className="flex h-12 w-[216px] items-center gap-2 rounded-[6px] bg-pink-200 text-lg font-semibold text-pink-500 transition-colors hover:bg-pink-300"
+              className="flex h-12 min-w-[216px] items-center gap-2 rounded-[6px] bg-pink-200 text-lg font-semibold text-pink-500 transition-colors hover:bg-pink-300"
             >
-              {t('getInTouch')}
+              {t('description3')}
               <Forward size={20} />
             </Button>
           </div>
