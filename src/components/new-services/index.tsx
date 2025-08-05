@@ -137,33 +137,35 @@ export default function NewServices() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex h-[80vh] w-full items-center justify-center">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/herobg.jpg"
-            alt="Hero Background"
-            fill
-            className="object-cover"
-            priority
-          />
+      {searchParams.get('service') && (
+        <section className="relative flex h-[80vh] w-full items-center justify-center">
+          <div className="absolute inset-0 z-0">
+            <Image
+              src="/herobg.jpg"
+              alt="Hero Background"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+
+          <div className="relative z-10 mx-auto max-w-6xl px-4 text-center text-white">
+            <div className="mb-8 flex items-center justify-center gap-4"></div>
+
+            <h2 className="mb-0 text-3xl font-bold uppercase leading-tight md:text-4xl lg:text-5xl">
+              {searchParams.get('service')
+                ? currentService.mainTitle
+                : 'Services'}
+            </h2>
+          </div>
+        </section>
+      )}
+
+      {!searchParams.get('service') && (
+        <div className="pt-24">
+          <NewLpWhatWeDo maxWidth="max-w-6xl" />
         </div>
-
-        {/* Content */}
-        <div className="relative z-10 mx-auto max-w-6xl px-4 text-center text-white">
-          {/* Brand Title with Brain Icon */}
-          <div className="mb-8 flex items-center justify-center gap-4"></div>
-
-          {/* Main Heading */}
-          <h2 className="mb-0 text-3xl font-bold uppercase leading-tight md:text-4xl lg:text-5xl">
-            {searchParams.get('service')
-              ? currentService.mainTitle
-              : 'Services'}
-          </h2>
-        </div>
-      </section>
-
-      {!searchParams.get('service') && <NewLpWhatWeDo maxWidth="max-w-6xl" />}
+      )}
 
       {/* Service Info */}
       <section className="w-full bg-white px-4 py-16">

@@ -33,7 +33,7 @@ export default function NewLpWhyChooseUs() {
         </p>
 
         {/* Two Column Layout */}
-        <div className="flex flex-col gap-8 md:flex-row">
+        <div className="flex flex-col gap-24 md:flex-row">
           {/* Advantage Column */}
           <div className="h-[400px] flex-1 border-l-4 border-pink-500 bg-[#F3F3F4]/10 p-8">
             <h3 className="mb-6 text-2xl font-bold text-pink-500">
