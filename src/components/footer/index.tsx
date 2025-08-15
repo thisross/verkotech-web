@@ -52,8 +52,8 @@ export default function Footer({ lang }: ILanguages) {
             <div className="flex flex-col gap-2">
               <p className="hidden   text-base text-zinc-500 md:block">
                 {lang === 'en'
-                  ? '  Miami 201, South Biscayne Boulevard Suite #1200 Miami, FL 33131 USA Miami I Flórida | USA'
-                  : 'Sao Paulo Av. Eng Luis Carlos Berrini, 1618 Unit 41R, SP, 04571-000, SP BR'}
+                  ? '201 S Biscayne Blvd, Suite 1200 Miami, FL 33131'
+                  : 'Av. Eng. Luis Carlos Berrini, 1618, Unit 41R, SP, 04571-000, SP BR'}
               </p>
               <p className="text-base text-zinc-500">
                 {lang === 'en'
@@ -113,8 +113,8 @@ export default function Footer({ lang }: ILanguages) {
           <p className="text-xs text-black md:hidden">
             {' '}
             {lang === 'en'
-              ? '  Miami 201, South Biscayne Boulevard Suite #1200 Miami, FL 33131 USA Miami I Flórida | USA'
-              : 'Sao Paulo Av. Eng Luis Carlos Berrini, 1618 Unit 41R, SP, 04571-000, SP BR'}
+              ? '201 S Biscayne Blvd, Suite 1200 Miami, FL 33131'
+              : 'Av. Eng. Luis Carlos Berrini, 1618, Unit 41R, SP, 04571-000, SP BR'}
           </p>
           <ul className="flex flex-wrap items-center gap-2 text-sm font-medium text-verkotech-pink sm:mt-0 dark:text-zinc-400">
             <Link
