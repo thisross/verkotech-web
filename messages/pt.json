@@ -235,4 +235,76 @@
       }
     }
   }
+  ,
+  "PrivacyPage": {
+    "sidebarTitle": "Privacidade",
+    "headerTitle": "Política de Privacidade",
+    "lastUpdated": "Última atualização: Setembro de 2025",
+    "introPart1": "A Verkotech respeita sua privacidade e está comprometida em proteger suas informações pessoais. Esta Política de Privacidade explica como coletamos, usamos e protegemos informações quando você visita nosso site ",
+    "introSite": "www.verkotech.com",
+    "introPart2": ".",
+    "s1": {
+      "title": "1. Informações que Coletamos",
+      "intro": "Quando você utiliza nosso Site, podemos coletar os seguintes tipos de informações:",
+      "personalTitle": "Informações Pessoais que você fornece:",
+      "personalDesc": "Nome, endereço de e-mail, número de telefone, nome da empresa e quaisquer outros dados enviados por meio de nossos formulários de contato.",
+      "usageTitle": "Dados de Uso:",
+      "usageDesc": "Informações coletadas automaticamente, como endereço IP, tipo de navegador, informações do dispositivo, páginas visitadas e tempo gasto no Site.",
+      "cookiesTitle": "Cookies e Tecnologias de Rastreamento:",
+      "cookiesDesc": "Utilizamos cookies e ferramentas de análise (como o Google Analytics) para entender como os visitantes usam nosso Site e melhorar o desempenho."
+    },
+    "s2": {
+      "title": "2. Como Utilizamos Suas Informações",
+      "intro": "Utilizamos as informações coletadas para:",
+      "items": [
+        "Responder a solicitações e prestar os serviços solicitados.",
+        "Nos comunicar com você sobre nossos serviços, propostas e atualizações.",
+        "Aprimorar a funcionalidade do site, a experiência do usuário e a segurança.",
+        "Cumprir obrigações legais."
+      ]
+    },
+    "s3": {
+      "title": "3. Compartilhamento de Informações",
+      "intro": "Não vendemos nem alugamos suas informações pessoais. Podemos compartilhá-las apenas com:",
+      "items": [
+        "Provedores de serviços e parceiros de negócios que nos ajudam a operar o Site ou entregar serviços.",
+        "Autoridades legais, quando exigido por lei ou para proteger nossos direitos."
+      ]
+    },
+    "s4": {
+      "title": "4. Retenção de Dados",
+      "text": "Mantemos suas informações pessoais apenas pelo tempo necessário para cumprir as finalidades descritas nesta Política ou conforme exigido por lei."
+    },
+    "s5": {
+      "title": "5. Seus Direitos",
+      "intro": "Dependendo da sua localização, você pode ter direitos previstos em leis de proteção de dados (como GDPR ou CCPA), incluindo:",
+      "items": [
+        "Direito de acessar, atualizar ou excluir suas informações.",
+        "Direito de optar por não receber comunicações de marketing.",
+        "Direito de solicitar uma cópia dos dados pessoais que mantemos sobre você."
+      ],
+      "contact": "Para exercer esses direitos, entre em contato conosco em "
+    },
+    "s6": {
+      "title": "6. Segurança",
+      "text": "Implementamos medidas técnicas e organizacionais razoáveis para proteger suas informações contra acesso não autorizado, perda, uso indevido ou divulgação."
+    },
+    "s7": {
+      "title": "7. Cookies",
+      "text": "Você pode gerenciar ou desativar cookies nas configurações do seu navegador. Observe que alguns recursos do Site podem não funcionar corretamente se os cookies forem desativados."
+    },
+    "s8": {
+      "title": "8. Links de Terceiros",
+      "text": "Nosso Site pode conter links para sites de terceiros. Não somos responsáveis pelas práticas de privacidade ou pelo conteúdo desses sites."
+    },
+    "s9": {
+      "title": "9. Mudanças nesta Política",
+      "text": "Podemos atualizar esta Política de Privacidade periodicamente. A versão atualizada será publicada nesta página com uma nova data de \"Última atualização\"."
+    },
+    "s10": {
+      "title": "10. Fale Conosco",
+      "intro": "Se você tiver dúvidas ou preocupações sobre esta Política de Privacidade ou sobre nossas práticas de dados, entre em contato conosco:",
+      "emailLabel": "Email:"
+    }
+  }
 }

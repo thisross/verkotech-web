@@ -236,4 +236,76 @@
       }
     }
   }
+  ,
+  "PrivacyPage": {
+    "sidebarTitle": "Privacy",
+    "headerTitle": "Privacy Policy",
+    "lastUpdated": "Last updated: September 2025",
+    "introPart1": "Verkotech respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard information when you visit our website ",
+    "introSite": "www.verkotech.com",
+    "introPart2": ".",
+    "s1": {
+      "title": "1. Information We Collect",
+      "intro": "When you use our Site, we may collect the following types of information:",
+      "personalTitle": "Personal Information you provide:",
+      "personalDesc": "Name, email address, phone number, company name, and any other details you submit through our contact forms.",
+      "usageTitle": "Usage Data:",
+      "usageDesc": "Information automatically collected, such as IP address, browser type, device information, pages visited, and time spent on the Site.",
+      "cookiesTitle": "Cookies and Tracking Technologies:",
+      "cookiesDesc": "We use cookies and analytics tools (such as Google Analytics) to understand how visitors use our Site and improve performance."
+    },
+    "s2": {
+      "title": "2. How We Use Your Information",
+      "intro": "We use the collected information to:",
+      "items": [
+        "Respond to inquiries and provide requested services.",
+        "Communicate with you about our services, proposals, and updates.",
+        "Improve our website functionality, user experience, and security.",
+        "Comply with legal obligations."
+      ]
+    },
+    "s3": {
+      "title": "3. Sharing of Information",
+      "intro": "We do not sell or rent your personal information. We may share it only with:",
+      "items": [
+        "Service providers and business partners who help us operate the Site or deliver services.",
+        "Legal authorities, if required by law or to protect our rights."
+      ]
+    },
+    "s4": {
+      "title": "4. Data Retention",
+      "text": "We keep your personal information only as long as necessary to fulfill the purposes described in this Policy or as required by law."
+    },
+    "s5": {
+      "title": "5. Your Rights",
+      "intro": "Depending on your location, you may have rights under data protection laws (such as GDPR or CCPA), including:",
+      "items": [
+        "The right to access, update, or delete your information.",
+        "The right to opt out of marketing communications.",
+        "The right to request a copy of the personal data we hold about you."
+      ],
+      "contact": "To exercise these rights, please contact us at "
+    },
+    "s6": {
+      "title": "6. Security",
+      "text": "We implement reasonable technical and organizational measures to protect your information against unauthorized access, loss, misuse, or disclosure."
+    },
+    "s7": {
+      "title": "7. Cookies",
+      "text": "You can manage or disable cookies in your browser settings. Note that some features of the Site may not function properly if cookies are disabled."
+    },
+    "s8": {
+      "title": "8. Third-Party Links",
+      "text": "Our Site may contain links to third-party websites. We are not responsible for the privacy practices or content of those sites."
+    },
+    "s9": {
+      "title": "9. Changes to This Policy",
+      "text": "We may update this Privacy Policy from time to time. The updated version will be posted on this page with a new \"Last updated\" date."
+    },
+    "s10": {
+      "title": "10. Contact Us",
+      "intro": "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:",
+      "emailLabel": "Email:"
+    }
+  }
 }
