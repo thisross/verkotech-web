@@ -5,6 +5,15 @@
     "services":  "Services",
     "getInTouch": "Get In Touch"
   },
+  "WorkWithUs": {
+    "heroTitle": "CAREER & WORK WITH US",
+    "heroSubtitle": "Work with a team that turns complexity into results.",
+    "shareTitle": "Share with us your resume:",
+    "privacyPrefix": "Privacy Policy — By submitting this form, you agree to the terms of our ",
+    "privacyLink": "Privacy Policy",
+    "success": "Application submitted successfully! We will be in touch soon.",
+    "error": "Failed to submit application. Please try again."
+  },
   "Footer": {
     "home": "Home",
     "aboutUs": "About Us",
@@ -142,6 +151,13 @@
     "readyTitle": "Ready to move forward?",
     "readyDescription": "Reach out and discover how Verkotech can support your SAP journey.",
     "getInTouch": "GET IN TOUCH"
+  ,
+    "leadership": {
+      "title": "OUR LEADERSHIP / MEET OUR CEO",
+      "p1": "Over the past 20+ years, I’ve worked with organizations around the world to design and implement SAP solutions that make a real difference in how they operate. My passion is helping companies simplify what’s complex—whether that means ensuring compliance with constantly changing tax rules or creating systems that grow with the business.",
+      "p2": "Beyond client work, I believe in developing people. At Verkotech, I’ve built programs that train consultants using real business case scenarios, so they don’t just learn the technology—they learn how to solve problems that matter. Seeing new professionals grow into trusted advisors is one of the most rewarding parts of my career.",
+      "p3": "What drives me every day is building long-term partnerships, delivering tangible results, and leaving companies stronger and more resilient than when we started."
+    }
   },
   "ServicesPage": {
     "contactTitle": "Want to learn more?",

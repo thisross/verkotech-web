@@ -14,11 +14,15 @@ const linksEn = [
   { title: 'Home', url: '/' },
   { title: 'About Us', url: '/aboutUs' },
   { title: 'Services', url: '/services' },
+  { title: 'Privacy', url: '/privacy' },
+  { title: 'Work With Us', url: '/work-with-us' },
 ]
 const linksPt = [
   { title: 'Início', url: '/' },
   { title: 'Sobre Nós', url: '/aboutUs' },
   { title: 'Serviços', url: '/services' },
+  { title: 'Privacidade', url: '/privacy' },
+  { title: 'Trabalhe Conosco', url: '/work-with-us' },
 ]
 const contentEn = {
   cta: 'Get In Touch',
