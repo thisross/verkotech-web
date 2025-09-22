@@ -41,7 +41,7 @@ export default function NewAboutUs() {
           <div className="lg:pb-8">
             <Avatar className="h-[220px] w-[220px] overflow-hidden rounded-full md:mx-0 md:h-[260px] md:w-[260px]">
               <AvatarImage
-                src="/ceo2.jpg"
+                src="/ceo.JPEG"
                 className="object-cover object-top"
                 alt="CEO"
               />
