@@ -22,13 +22,15 @@ interface ILanguages {
 // Translations
 const linksEn = [
   { title: 'Home', url: '/' },
-  { title: 'About Us', url: '/aboutUs' },
+  { title: 'About us', url: '/aboutUs' },
   { title: 'Services', url: '/services' },
+  { title: "Work", url: '/work-with-us' },
 ]
 const linksPt = [
   { title: 'Início', url: '/' },
-  { title: 'Sobre Nós', url: '/aboutUs' },
+  { title: 'Sobre nós', url: '/aboutUs' },
   { title: 'Serviços', url: '/services' },
+  { title: 'Carreira', url: '/work-with-us' },
 ]
 const contentEn = {
   cta: 'Get In Touch',

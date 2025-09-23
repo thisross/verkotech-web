@@ -5,6 +5,15 @@
     "services":  "Services",
     "getInTouch": "Get In Touch"
   },
+  "WorkWithUs": {
+    "heroTitle": "CAREER & WORK WITH US",
+    "heroSubtitle": "Work with a team that turns complexity into results.",
+    "shareTitle": "Share with us your resume:",
+    "privacyPrefix": "Privacy Policy — By submitting this form, you agree to the terms of our ",
+    "privacyLink": "Privacy Policy",
+    "success": "Application submitted successfully! We will be in touch soon.",
+    "error": "Failed to submit application. Please try again."
+  },
   "Footer": {
     "home": "Home",
     "aboutUs": "About Us",
@@ -99,7 +108,7 @@
       "mainHeading1": "We turn SAP complexity",
       "mainHeading2": "into business clarity",
       "description1": "Verkotech is a specialized SAP consulting firm dedicated to helping North American companies thrive with SAP across the Americas.",
-      "description2": "From strategy to execution, we bring structure, precision and deep industry knowledge - especially for highly regulated environments.",
+      "description2": "From strategy to execution, we bring structure, precision and deep industry knowledge, especially for highly regulated environments.",
       "getInTouch": "Get in touch",
       "description3": "Learn more about us and how we work and how we can support your next project."
     },
@@ -129,19 +138,26 @@
       "mainHeading2": "solutions, ",
       "mainHeading3": "together.",
       "description1": "Verkotech simplifies complexity. With deep industry knowledge, bilingual consultants and a cross-border delivery model, we turn challenges into strategic advantages.",
-      "description2": "Ready to move forward? Let's talk and explore how Verkotech can drive your SAP journey – from strategy to execution. Share your goals with us. We'll transform them into real, measurable results.",
+      "description2": "Ready to move forward? Let's talk and explore how Verkotech can drive your SAP journey, from strategy to execution. Share your goals with us. We'll transform them into real, measurable results.",
       "getInTouch": "Get in touch"
     }
   },
   "AboutUsPage": {
     "title": "ABOUT US",
-    "paragraph1": "Verkotech is a specialized SAP and Thomson Reuters consulting firm dedicated to helping North American companies thrive with solutions across the Americas. With deep expertise in the chemical industry and a highly skilled bilingual team fluent in Portuguese and English, we provide strategic support for complex cross-border initiatives — from S/4HANA transformations to tax and trade compliance.",
-    "paragraph2": "Our commitment is to deliver tailored, efficient, and future-ready SAP solutions that connect business and technology across regions. At Verkotech, we believe transformation happens when expertise, cultural understanding, and technology unite to drive business forward.",
+    "paragraph1": "Verkotech is a specialized SAP and Thomson Reuters consulting firm dedicated to helping North American companies thrive with solutions across the Americas. With deep expertise in the chemical industry and a highly skilled bilingual team fluent in Portuguese and English, we provide strategic support for complex cross-border initiatives, from S/4HANA transformations to tax and trade compliance.",
+    "paragraph2": "Our commitment is to deliver tailored, efficient, and future-ready SAP solutions that bridge business and technology across regions. At Verkotech, we believe true transformation happens when expertise, cultural understanding, and technology come together to move business forward.",
     "paragraph3": "Verkotech simplifies complexity. With deep industry knowledge, bilingual consultants, and a cross-border delivery model, we turn challenges into strategic advantages.",
     "signature": "— The Verkotech Team",
     "readyTitle": "Ready to move forward?",
     "readyDescription": "Reach out and discover how Verkotech can support your SAP journey.",
     "getInTouch": "GET IN TOUCH"
+  ,
+    "leadership": {
+      "title": "OUR LEADERSHIP / MEET OUR CEO",
+      "p1": "Over the past 20+ years, l've worked with organizations around the world to design and implement SAP solutions that make a real difference in how they operate. My passion is helping companies simplify what's complex-whether that means ensuring compliance with constantly changing tax rules or creating systems that grow with the business.",
+      "p2": "Beyond client work, I believe in developing people. At Verkotech, I've built programs that train consultants using real business case scenarios, so they don't just learn the technology, they learn how to solve problems that matter. Seeing new professionals grow into trusted advisors is one of the most rewarding parts of my career.",
+      "p3": "What drives me every day is building long-term partnerships, delivering tangible results, and leaving companies stronger and more resilient than when we started."
+    }
   },
   "ServicesPage": {
     "contactTitle": "Want to learn more?",
@@ -163,7 +179,7 @@
         "mainDescription": "Full lifecycle rollout, greenfield/brownfield, regional and global rollout. Whether you're transitioning from SAP ECC to S/4HANA or launching a global rollout, Verkotech leads your transformation with technical precision and business insight.",
         "approachTitle": "Our Approach",
         "approachItems": [
-          "Assessment & Roadmapping: We begin with a clear fit-gap and readiness assessment to define the optimal path—greenfield, brownfield, or selective data transition",
+          "Assessment & Roadmapping: We begin with a clear fit-gap and readiness assessment to define the optimal path, greenfield, brownfield, or selective data transition",
           "Agile Project Delivery: Leverage Activate methodology with agile sprints and real-time collaboration",
           "Global Rollout Experience: Localization, legal compliance, and template governance across multi-country deployments",
           "Change Management: Comprehensive training and adoption strategies to ensure smooth transitions"

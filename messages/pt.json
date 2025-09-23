@@ -38,6 +38,15 @@
   "getInTouchDetails": "Você está pronto para desbloquear todo o potencial da expansão do seu negócio para a América Latina? Não procure mais! A VERKOTECH é sua porta de entrada para integração perfeita e sucesso incomparável neste mercado dinâmico.",
   "contact": "Contato"
   },
+  "WorkWithUs": {
+    "heroTitle": "CARREIRA & TRABALHE CONOSCO",
+    "heroSubtitle": "Trabalhe com uma equipe que transforma complexidade em resultados.",
+    "shareTitle": "Compartilhe seu currículo conosco:",
+    "privacyPrefix": "Política de Privacidade — Ao enviar este formulário, você concorda com os termos da nossa ",
+    "privacyLink": "Política de Privacidade",
+    "success": "Candidatura enviada com sucesso! Entraremos em contato em breve.",
+    "error": "Falha ao enviar a candidatura. Tente novamente."
+  },
   "AboutUs": {
     "title": "Verkotech",
     "your": "Seu",
@@ -134,13 +143,20 @@
   },
   "AboutUsPage": {
     "title": "SOBRE NÓS",
-    "paragraph1": "A Verkotech é uma empresa de consultoria especializada em SAP e Thomson Reuters dedicada a ajudar empresas norte-americanas a prosperar com soluções nas Américas. Com profunda experiência na indústria química e uma equipe bilíngue altamente qualificada fluente em português e inglês, fornecemos suporte estratégico para iniciativas complexas transfronteiriças — desde transformações S/4HANA até conformidade fiscal e comercial.",
+    "paragraph1": "A Verkotech é uma empresa de consultoria especializada em SAP e Thomson Reuters dedicada a ajudar empresas norte-americanas a prosperar com soluções nas Américas. Com profunda experiência na indústria química e uma equipe bilíngue altamente qualificada fluente em português e inglês, fornecemos suporte estratégico para iniciativas complexas transfronteiriças, desde transformações S/4HANA até conformidade fiscal e comercial.",
     "paragraph2": "Nosso compromisso é entregar soluções SAP personalizadas, eficientes e preparadas para o futuro que conectam negócios e tecnologia entre regiões. Na Verkotech, acreditamos que a verdadeira transformação acontece quando experiência, compreensão cultural e tecnologia se unem para mover os negócios adiante.",
     "paragraph3": "A Verkotech simplifica a complexidade. Com conhecimento profundo da indústria, consultores bilíngues e um modelo de entrega transfronteiriço, transformamos desafios em vantagens estratégicas.",
     "signature": "— A Equipe Verkotech",
     "readyTitle": "Pronto para seguir em frente?",
     "readyDescription": "Entre em contato e descubra como a Verkotech pode apoiar sua jornada SAP.",
     "getInTouch": "ENTRE EM CONTATO"
+  ,
+    "leadership": {
+      "title": "NOSSA LIDERANÇA / CONHEÇA O NOSSO CEO",
+      "p1": "Nos últimos 20+ anos, trabalhei com organizações ao redor do mundo para projetar e implementar soluções SAP que fazem diferença real em como elas operam. Minha paixão é ajudar empresas a simplificar o que é complexo—seja garantindo conformidade com regras fiscais em constante mudança ou criando sistemas que crescem junto com o negócio.",
+      "p2": "Além do trabalho com clientes, acredito no desenvolvimento de pessoas. Na Verkotech, construí programas que treinam consultores com cenários reais de negócios, para que eles não apenas aprendam a tecnologia—mas sim a resolver problemas que importam. Ver novos profissionais se tornarem consultores de confiança é uma das partes mais gratificantes da minha carreira.",
+      "p3": "O que me move todos os dias é construir parcerias de longo prazo, entregar resultados tangíveis e deixar as empresas mais fortes e resilientes do que quando começamos."
+    }
   },
   "ServicesPage": {
     "contactTitle": "Quer saber mais?",
