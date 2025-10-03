@@ -5,6 +5,7 @@ import { Forward } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { useRouter } from '../../../navigation'
 import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar'
+import Image from 'next/image'
 
 export default function NewAboutUs() {
   const t = useTranslations('AboutUsPage')
@@ -38,15 +39,22 @@ export default function NewAboutUs() {
       {/* Leadership Section */}
       <div className="w-full bg-white pb-8 pt-10 lg:px-4">
         <div className="mx-auto flex w-full max-w-4xl flex-col items-start gap-10 md:flex-row md:items-start">
-          <div className="lg:pb-8">
-            <Avatar className="h-[220px] w-[220px] overflow-hidden rounded-full md:mx-0 md:h-[260px] md:w-[260px]">
+          <div className="lg:pb-8 relative mb-8 h-[220px] w-[220px] overflow-hidden rounded-full">
+            {/* <Avatar className="h-[220px] w-[220px] overflow-hidden rounded-full md:mx-0 md:h-[260px] md:w-[260px]">
               <AvatarImage
                 src="/ceo.JPEG"
                 className="object-cover object-top"
                 alt="CEO"
               />
               <AvatarFallback>CEO</AvatarFallback>
-            </Avatar>
+            </Avatar> */}
+            <Image
+              src="/ceo.JPEG"
+              alt="CEO"
+              fill
+              quality={70}
+              className="object-cover object-top"
+            />
           </div>
 
           <div className="flex-1">
