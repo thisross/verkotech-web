@@ -49,6 +49,20 @@ export default async function LocaleLayout({
           `}
         </Script>
 
+        {/* Google Analytics (GA4) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-CZERLMNJJZ"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-CZERLMNJJZ');
+          `}
+        </Script>
+
         {/* LinkedIn Insight Tag */}
         <Script id="linkedin-insight-init" strategy="afterInteractive">
           {`
